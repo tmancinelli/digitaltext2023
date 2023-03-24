@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model
+  href=""
+  schematypens="http://relaxng.org/ns/structure/1.0"
+  type="application/xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p></p>
+         </publicationStmt>
+         <sourceDesc>
+            <p></p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+   <facsimile>
+      <graphic xml:id="f-032" url="Gell_taccuino_6_pag_032_FotoCiol©.png"/>
+   </facsimile>
+  <text>
+      <body>
+         
+         <pb facs="#f-032" n="32"/> 
+         <ab>30 p 12 a stream &#38; [drawing: arch bridge] runs L. a toll bar, <lb/> a Vill R.
+            40 p 11 steep ascent Village Costantin. 10 p 12 very long ascent <lb/>curious Gothic Rock very like a ruin*. Small vill near it R. 3 Villages R &#38; pretty Valley. still ascend. 20 to 1 top Glen &#38; houses L. 10 to 1 League 20. The river in the new valley runs back 9m to Asturias; perhaps into the Minho. 20 p 1 arrive at <placeName>Santa Isabella</placeName>. A very wretched Venta with only one room a travelling hurdy gurdy man, very civil drivers of oxen. hens cat dog &#38; pig all in the room. A great caldron on the fire boiling potatoes greens &#38;c. for the pigs.<lb/>
+            At 15 p 4 quit St Isabella. very fine Mountains <add place="margin">A high cold place</add>  on getting into next valley. The hills very lofty but up to the top cultivated, the bottoms full of chestnut trees. descend, Vill L. [Margin: Better climate]
+            10 p 4 Vill. fine view &#38; chestnuts.
+            20 <del>2</del> p 4 Vill up another branch of Vale L 3 miles dist &#38; large 35 p 4 21 leagues &#38; pretty Vill L. 40 p 4 X a magnificent bridge over a bottom called</ab>
+      </body>
+  </text>
+</TEI>
