@@ -1,0 +1,143 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://7f95e47f-6ac1-4a80-8122-3477ea3c88da",
+	"@type": "sc:Manifest",
+	"label": "[Click to edit label]",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "description ",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "",
+	"sequences": [
+		{
+			"@id": "http://621b4ef1-9fbe-43e0-aa52-0754eaf189a5",
+			"@type": "sc:Sequence",
+			"label": "Normal Sequence",
+			"canvases": [
+				{
+					"@id": "http://bba8c896-47d6-43c6-90cd-d4227e54855b",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 0,
+					"width": 0,
+					"images": [],
+					"related": ""
+				},
+				{
+					"@id": "http://4def3831-ae92-43f3-b01a-5df04b0d9a94",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 2904,
+					"width": 2164,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://0ebad5e5-41b2-4a4e-80bc-713893051cb5",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://digi.vatlib.it/iiifimage/MSS_Barb.lat.4076/Barb.lat.4076_0001_al_piatto.anteriore.jp2/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://digi.vatlib.it/iiifimage/MSS_Barb.lat.4076/Barb.lat.4076_0001_al_piatto.anteriore.jp2",
+									"profile": [
+										"http://iiif.io/api/image/2/level1.json",
+										{
+											"formats": [
+												"jpg"
+											],
+											"qualities": [
+												"native",
+												"color",
+												"gray"
+											],
+											"supports": [
+												"regionByPct",
+												"regionSquare",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"sizeAboveFull",
+												"rotationBy90s",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 2904,
+								"width": 2164
+							},
+							"on": "http://4def3831-ae92-43f3-b01a-5df04b0d9a94"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://4432c4ec-4f83-4fe7-ac0b-44e77a58e6c5",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 3393,
+					"width": 2086,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://9e468c8f-f9a1-48c2-b9bd-c20d41939e7c",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8449684q/f279/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://library.stanford.edu/iiif/image-api/1.1/context.json",
+									"@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8449684q/f279",
+									"profile": "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
+								},
+								"height": 3393,
+								"width": 2086
+							},
+							"on": "http://4432c4ec-4f83-4fe7-ac0b-44e77a58e6c5"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://c0ae1dc8-3144-4e05-81e1-9b5e0a433586",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 3401,
+					"width": 2150,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://e001d43f-7c77-427b-ad37-99f33a29c285",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8449684q/f280/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://library.stanford.edu/iiif/image-api/1.1/context.json",
+									"@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8449684q/f280",
+									"profile": "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
+								},
+								"height": 3401,
+								"width": 2150
+							},
+							"on": "http://c0ae1dc8-3144-4e05-81e1-9b5e0a433586"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": [],
+	"viewingDirection": "left-to-right"
+}

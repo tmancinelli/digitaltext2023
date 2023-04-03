@@ -1,0 +1,59 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Barberino!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/mirador@3.0.0/dist/mirador.min.js"></script>
+  </head>
+  <body>
+    <section class="hero">
+      <div class="hero-body">
+        <p class="title">
+          Documenti d'Amore by Francesco da Barberino
+        </p>
+        <p class="subtitle">
+          A IIIF experiment
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div style="height:500px;" id="my-mirador"></div>
+
+    <script type="text/javascript">
+    var mirador = Mirador.viewer({
+    "id": "my-mirador",
+    "manifests": {
+    "manifest-1.json" : {
+    "provider": "IIIF Tutorial University of Venice"
+     }
+    },
+  "windows": [
+    {
+      "loadedManifest": "manifest-1.json",
+      "canvasIndex": 1,
+      "thumbnailNavigationPosition": 'far-bottom'
+      }
+    ]
+  });
+  </script>
+
+    </div>
+   </section>
+
+   <section class="section">
+    <div class="container">
+
+     <nav class="breadcrumb" aria-label="breadcrumbs">
+        <ul>
+          <li><a href="index.html">Intera</a></li>
+          <li><a href="pagina.html">Pagina</a></li>
+          <li><a href="dettaglio.html">Dettaglio</a></li>
+        </ul>
+      </nav>
+    </section>
+
+</body>
+</html>
