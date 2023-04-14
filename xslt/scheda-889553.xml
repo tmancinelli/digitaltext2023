@@ -1,0 +1,1702 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><![CDATA[CNMD0000249993 - CNMS0000183413]]></title>
+        <principal xml:id="cperna"><![CDATA[Ciro  Perna]]></principal>
+        <respStmt>
+          <resp ref="#editing"><![CDATA[Creatore della scheda]]></resp>
+          <name xml:id="ciro--perna"><![CDATA[Ciro  Perna]]></name>
+          <note><![CDATA[ha modificato parte della scheda]]></note>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+                <edition n="tei-mol-1.0-2022">
+                    <name>MOL-TEI profile</name>
+                    <idno type="versione">tei-mol-1.0-2022</idno>
+                    <date>2022</date>
+                </edition>
+                <respStmt>
+                    <resp ref="#editing">modifiche della scheda</resp>
+                    <name>Denise Ugliano</name>
+                </respStmt>
+            </editionStmt>
+      <publicationStmt>
+			<distributor>ICCU</distributor>
+                <availability status="restricted">
+                    <p>Scheda soggetta a limitazioni</p>
+                </availability>
+                <idno type="CNMD">0000249993</idno>
+                <idno type="CNMS">0000183413</idno>
+			</publicationStmt>
+      <notesStmt>
+                <noteGrp>
+                    <note>
+                        Il file è stato generato automaticamente dalla piattaforma MOL 2.0 il 
+                        <date when="2023-04-13">13 aprile 2023</date>
+                    </note>
+                    <note/>
+                </noteGrp>
+            </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="CNMD0000249993" n="CNMD\0000249993" status="Pubblicata" type="unitario">
+          <msIdentifier>
+            <country type="nazione" key="IT"><![CDATA[ITALIA]]></country>
+            <region type="regione"><![CDATA[TOSCANA]]></region>
+            <settlement type="comune"><![CDATA[Firenze]]></settlement>
+            <institution key="IT-FI0098"><![CDATA[Biblioteca nazionale centrale]]></institution>
+            <repository key="IT-FI0098"><![CDATA[Biblioteca nazionale centrale]]></repository>
+            <collection key="CNMF0000001486"><![CDATA[Banco Rari]]></collection>
+            <idno type="segnatura"><![CDATA[69]]></idno>
+            <altIdentifier type="CNMS">
+              <idno><![CDATA[0000183413]]></idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <desc type="unitario"/>
+            </summary>
+            <msItem class="#decorato" xml:id="di958934" n="1">
+              <locus type="carte"><![CDATA[cc. 1r-10v]]></locus>
+              <title n="1" type="elaborato"><![CDATA[Rime]]></title>
+              <incipit type="primo-testo" defective="false" n="1">
+                <locus type="carte"><![CDATA[c. 1r]]></locus>
+                <quote type="trascrizione"><![CDATA[Donne ch'avete intellecto d'amore]]></quote>
+              </incipit>
+              <incipit type="ultimo-testo" defective="false" n="2">
+                <locus type="carte"><![CDATA[c. 9v]]></locus>
+                <quote type="trascrizione"><![CDATA[Aï faux ris prou quoi traï aves]]></quote>
+              </incipit>
+              <explicit type="primo-testo" defective="false" n="1">
+                <locus type="carte"><![CDATA[c. 1r]]></locus>
+                <quote type="trascrizione"><![CDATA[Raccommandame a lui sì como dei]]></quote>
+              </explicit>
+              <explicit type="ultimo-testo" defective="false" n="2">
+                <locus type="carte"><![CDATA[c. 9v]]></locus>
+                <quote type="trascrizione"><![CDATA[forse pietà n'arà chi me tormenta]]></quote>
+              </explicit>
+            </msItem>
+            <msItem class="#decorato" xml:id="di958939" n="2">
+              <locus type="carte"><![CDATA[cc. 11r-26v]]></locus>
+              <title n="1" type="non-elaborato" subtype="identificato">
+                <quote><![CDATA[<i>Comedia</i>. <i>Paradiso</i>]]></quote>
+                <locus type="carte"/>
+                <note type="titolo" n="1"/>
+              </title>
+              <incipit type="" defective="true" n="1">
+                <locus type="carte"><![CDATA[c. 11r]]></locus>
+                <quote type="trascrizione"><![CDATA[con quella parte che su si rame(n)ta]]></quote>
+              </incipit>
+              <explicit type="" defective="false" n="1">
+                <locus type="carte"><![CDATA[c. 26v]]></locus>
+                <quote type="trascrizione"><![CDATA[L’amor che move il sole et l’alt(re) stelle]]></quote>
+              </explicit>
+              <noteGrp>
+                <note type="sezione" subtype="descrizione-generale" n=""><![CDATA[<i>Par.</i> X 31-XXXI 15; XXXII 90-XXXIII 145 con glosse latine marginali e interlineari]]></note>
+              </noteGrp>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="unitary_manuscript">
+              <supportDesc>
+                <support>
+                  <objectType ref="#palinsesto"/>
+                  <material type="corpo" function="support" ref="#cartaceo">
+                    <term><![CDATA[Cartaceo]]></term>
+                    <state type="descrizione">
+                      <label><![CDATA[descrizione]]></label>
+                      <desc/>
+                    </state>
+                  </material>
+                  <objectType ref="#guardie">
+                    <term><![CDATA[guardie]]></term>
+                    <material function="support" ref="#cartaceo">
+                      <term><![CDATA[Cartaceo]]></term>
+                      <state type="descrizione">
+                        <label><![CDATA[descrizione]]></label>
+                        <desc/>
+                      </state>
+                    </material>
+                  </objectType>
+                  <watermark>
+                    <state type="descrizione">
+                      <label><![CDATA[descrizione]]></label>
+                      <desc rend="HTML"><![CDATA[poste al centro lungo la linea di cucitura dei fascicoli; fiore o frutto a calice con due racemi alle cc. 25 e 30 e alcuni steli curvi che, come una mezzaluna, sono desinenti in un cerchio alle cc. 28 e 31, in realtà tutte parti della stessa filigrana (mm 45 × 90 ca.) simile a Briquet 7373, 7374 o 7375 prodotte a Siena tra il 1335 e il 1356.]]></desc>
+                    </state>
+                  </watermark>
+                  <noteGrp>
+                    <note type="sezione" subtype="2" n="composizione materiale"/>
+                    <note type="sezione" subtype="3" n="palinsesto"/>
+                    <note type="sezione" subtype="6" n="materia"><![CDATA[risguardo, cc. Ir e II'v marmorizzati in marrone, rosso, bianco e oro; al <i>verso</i> della prima carta di guardia serie di precedenti segnature]]></note>
+                  </noteGrp>
+                </support>
+                <extent>
+                  <measureGrp type="composizione"/>
+                  <measureGrp type="consistenza" subtype="numero-carte">
+                    <measure type="guardie-iniziali" unit="carte" quantity="2"><![CDATA[2]]></measure>
+                    <measure type="corpo" unit="carte" quantity="32"><![CDATA[32]]></measure>
+                    <measure type="guardie-finali" unit="carte" quantity="2"><![CDATA[2]]></measure>
+                  </measureGrp>
+                  <measureGrp type="consistenza" n="1">
+                    <measure type="altezza" unit="mm" quantity="307"><![CDATA[307]]></measure>
+                    <measure type="base" unit="mm" quantity="222"><![CDATA[222]]></measure>
+                    <measure type="carte">
+                      <locus type="carte"><![CDATA[c. 13]]></locus>
+                    </measure>
+                  </measureGrp>
+                  <noteGrp>
+                    <note type="sezione" subtype="8" n="consistenza"><![CDATA[cartulazione moderna in inchiostro in cifre arabiche nel margine superiore destro, che copre precedente cartulazione a lapis sfalsata di due unità a partire dalla c. 11r; numerazione sulla prima carta anche al centro del margine superiore e nel margine inferiore sinistro del <i>verso</i>; nell'estremo margine inferiore destro sporadica cartulazione antica a numeri romani, parzialmente erasa e sfalsata di due unità per il primo e per il secondo fascicolo; ulteriore cartulazione a numeri romani scritti lungo il margine destro inferiore delle cc. 25r, 29r e 30r; bianche le cc. 10r-v, 25r-v, 27r-v, 28r-v, 29r-v, 30r-v, 31r-v, 32r-v]]></note>
+                    <note type="sezione" subtype="9" n="dimensioni"/>
+                  </noteGrp>
+                </extent>
+                <collation>
+                  <formula rend="HTML"><![CDATA[1/10 (rime); 2/15, 3/7 (<i>Par</i>). Il primo fascicolo è mutilo di due carte; il secondo fascicolo è mutilo di una carta]]></formula>
+                  <signatures n="segnature"/>
+                  <catchwords/>
+                  <signatures n="pecia">
+                    <locus type="posizione"/>
+                    <desc type="pecia"/>
+                  </signatures>
+                  <note type="sezione" subtype="pecia"/>
+                </collation>
+                <condition>
+                  <state type="consistenza">
+                    <label><![CDATA[mancanze]]></label>
+                    <desc/>
+                  </state>
+                  <state type="restauro" ref="#intervrest">
+                    <label><![CDATA[restauro]]></label>
+                    <desc>
+                      <term><![CDATA[ha subìto interventi di restauro]]></term>
+                    </desc>
+                  </state>
+                  <state type="conservazione">
+                    <label><![CDATA[stato di conservazione]]></label>
+                    <desc/>
+                  </state>
+                  <desc type="conservazione"><![CDATA[abbastanza buono con alcune gore d'acqua, macchie brune, abrasioni soprattutto agli angoli o lungo i margini, se lungo la scrittura questa resta per lo più leggibile (es. cc. 4v, 19r); alcune carte sono state risarcite lungo la cucitura interna o i margini; rifilato in maniera lievemente irregolare]]></desc>
+                </condition>
+              </supportDesc>
+              <layoutDesc>
+                <summary>
+                  <desc type="paleografico-codicologico" subtype="foratura"/>
+                  <desc type="paleografico-codicologico" subtype="rigatura"><![CDATA[a secco]]></desc>
+                </summary>
+                <layout>
+                  <desc type="paleografico-codicologico" subtype="specchio-scrittura"/>
+                  <desc type="paleografico-codicologico" subtype="righe"><![CDATA[rr. 2 / ll. 50-60]]></desc>
+                  <desc type="paleografico-codicologico" subtype="disposizione-testo"><![CDATA[monocolonnare e bicolonnare (rime, cc. 1r-9r); bicolonnare (<i>Commedia</i>, cc. 11r-26v)]]></desc>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <summary>
+                <state type="paleografico-codicologico">
+                  <label><![CDATA[Tags]]></label>
+                  <desc/>
+                </state>
+                <desc type="paleografico-codicologico" subtype="scrittura-mani"><![CDATA[Mano 1: bastarda (rime, cc. 1r-9r; <i>Commedia</i>, cc. 11r-26v); Mano 2: <i>littera textualis</i> semplificata (chiose latine, cc. 11r-26v); Mano 3: <i>littera textualis</i> (sporadiche annotazioni e glosse a margine)]]></desc>
+              </summary>
+              <handNote>
+                <state type="paleografico-codicologico">
+                  <label><![CDATA[inchiostro]]></label>
+                  <desc><![CDATA[bruno scuro]]></desc>
+                </state>
+              </handNote>
+            </handDesc>
+            <typeDesc>
+              <summary>
+                <desc>
+                  <locus type="carte"/>
+                </desc>
+              </summary>
+              <typeNote>
+                <desc/>
+                <state type="sbn">
+                  <label><![CDATA[BID]]></label>
+                  <desc>
+                    <idno type="SBN"/>
+                  </desc>
+                </state>
+                <state type="sbn">
+                  <label><![CDATA[URL]]></label>
+                  <desc>
+                    <idno type="url"/>
+                  </desc>
+                </state>
+                <state type="consistenza">
+                  <label><![CDATA[parti a stampa]]></label>
+                  <desc/>
+                </state>
+              </typeNote>
+            </typeDesc>
+            <musicNotation>
+              <locus type="posizione"/>
+              <state type="tipologia">
+                <label><![CDATA[Tipologia]]></label>
+                <desc/>
+              </state>
+              <note type="sezione" subtype="20" n=""/>
+            </musicNotation>
+            <decoDesc>
+              <summary>
+                <origDate type="decorazione">
+                  <note type="datazione"/>
+                </origDate>
+                <state type="pagina">
+                  <label><![CDATA[pagine illustrate]]></label>
+                  <desc>
+                    <term/>
+                    <locus type="posizione"/>
+                  </desc>
+                </state>
+                <state type="elementi-funzionali">
+                  <label><![CDATA[rubriche]]></label>
+                  <desc>
+                    <term/>
+                  </desc>
+                </state>
+                <state type="elementi-funzionali">
+                  <label><![CDATA[titoli correnti]]></label>
+                  <desc>
+                    <term/>
+                  </desc>
+                </state>
+                <state type="oro-azzurro">
+                  <label><![CDATA[oro/azzurro]]></label>
+                  <desc/>
+                </state>
+                <desc type="scuola-autore"/>
+                <noteGrp>
+                  <note type="sezione" subtype="pagina" n="decorazione"/>
+                  <note type="sezione" subtype="iniziali" n=""><![CDATA[Iniziali di terzina al tratto non emarginate]]></note>
+                  <note type="sezione" subtype="altro" n="Diagrammi astronomici. Cfr. &lt;i&gt;Illuminated Dante Project&lt;/i&gt;. &#xD;&#xA;Segni di paragrafo; &lt;i&gt; manicula &lt;/i&gt; a c. 15r"/>
+                </noteGrp>
+              </summary>
+              <decoNote type="iniziali" subtype="semplici"/>
+              <decoNote type="iniziali" subtype="filigranate"/>
+              <decoNote type="iniziali" subtype="ornate"/>
+              <decoNote type="iniziali" subtype="fitomorfe">
+                <locus type="posizione"/>
+              </decoNote>
+              <decoNote type="iniziali" subtype="zoomorfe">
+                <locus type="posizione"/>
+              </decoNote>
+              <decoNote type="iniziali" subtype="antropomorfe">
+                <locus type="posizione"/>
+              </decoNote>
+              <decoNote type="iniziali" subtype="bianchi-girari">
+                <locus type="posizione"/>
+              </decoNote>
+              <decoNote type="iniziali" subtype="figurate">
+                <locus type="posizione"/>
+              </decoNote>
+              <decoNote type="iniziali" subtype="istoriate">
+                <locus type="posizione"/>
+              </decoNote>
+              <decoNote type="iniziali" subtype="ornate-altro">
+                <locus type="posizione"/>
+              </decoNote>
+              <decoNote type="iniziali" subtype="fregio">
+                <locus type="posizione"/>
+              </decoNote>
+              <decoNote type="iniziali" subtype="disegni">
+                <locus type="posizione"><![CDATA[cc. 11r, 12r-v, 13r-v, 14r, 21r, 22v]]></locus>
+              </decoNote>
+              <decoNote type="iniziali" subtype="stampe-incisioni">
+                <locus type="posizione"/>
+              </decoNote>
+            </decoDesc>
+            <bindingDesc>
+              <binding n="legatura" from="1701" to="1800">
+                <p>
+                  <origDate>
+                    <origDate type="anno"><![CDATA[1701]]></origDate>
+                    <origDate type="anno"><![CDATA[1800]]></origDate>
+                  </origDate>
+                  <desc type="datazione" subtype="legatura"/>
+                  <desc type="origine" subtype="legatura"/>
+                  <note type="sezione" subtype="22"/>
+                </p>
+                <decoNote type="assi-quadranti">
+                  <material function="binding" ref="#cartone">
+                    <state type="descrizione">
+                      <label><![CDATA[descrizione]]></label>
+                      <desc><![CDATA[mm 307 × 228 × 170]]></desc>
+                    </state>
+                    <term><![CDATA[Cartone]]></term>
+                  </material>
+                </decoNote>
+                <decoNote type="coperta">
+                  <material function="binding" ref="#pelle #carta">
+                    <state type="descrizione">
+                      <label><![CDATA[descrizione]]></label>
+                      <desc><![CDATA[Legatura in mezza pelle verde e carta marmorizzata in rosso, verde, giallo, bianco, azzurro]]></desc>
+                    </state>
+                    <term><![CDATA[Pelle]]></term>
+                    <term><![CDATA[Carta]]></term>
+                  </material>
+                  <state type="decorazione" ref="#oro">
+                    <label><![CDATA[tipo decorazione della coperta]]></label>
+                    <desc>
+                      <term><![CDATA[Oro]]></term>
+                    </desc>
+                  </state>
+                  <state type="decorazione">
+                    <label><![CDATA[descrizione]]></label>
+                    <desc><![CDATA[Intitolazione sulla parte superiore del dorso a lettere capitali dorate: «MANOSCR / DEL / M.CCC». In basso etichetta moderna della biblioteca con l'attuale segnatura. Al riguardo due tasselli cartacei recanti le segnature «777» e «B. R. / 69»]]></desc>
+                  </state>
+                </decoNote>
+                <decoNote type="elementi-metallici-altro">
+                  <state type="elementi">
+                    <label><![CDATA[tipo elementi]]></label>
+                    <desc/>
+                  </state>
+                  <state type="elementi">
+                    <label><![CDATA[descrizione]]></label>
+                    <desc/>
+                  </state>
+                </decoNote>
+              </binding>
+            </bindingDesc>
+            <sealDesc>
+              <decoNote>
+                <desc type="paleografico-codicologico" subtype="sigilli-timbri"><![CDATA[Timbro circolare otto-novecentesco con lo stemma del regno d’Italia in inchiostro rosso «Biblioteca Nazionale Firenze» cc. 1r, 24v; timbro ovale otto-novecentesco, cimato da corona reale e accollato al collare dell'ordine della SS. Annunziata secondo lo stemma del Regno d’Italia, in inchiostro nero «Biblioteca Nazionale Centrale Firenze Mss» cc. 6v, 26v]]></desc>
+              </decoNote>
+            </sealDesc>
+            <accMat>
+              <state type="consistenza">
+                <label><![CDATA[frammenti in situ]]></label>
+                <desc>
+                  <locus type="posizione"/>
+                  <term/>
+                </desc>
+              </state>
+              <desc type="paleografico-codicologico" subtype="frammenti"/>
+            </accMat>
+          </physDesc>
+          <history>
+            <summary>
+              <list type="nomi-DE">
+                <head><![CDATA[Nomi Legati alla Descrizione Esterna]]></head>
+                <item n="1">
+                  <roleName type="responsabilita" ref="#altra-relazione-di-d.e."><![CDATA[altra relazione di D.E.]]></roleName>
+                  <name role="altra relazione di D.E." ref="#p164403"/>
+                  <locus type="carte"/>
+                  <note/>
+                </item>
+                <item n="2">
+                  <roleName type="responsabilita" ref="#altra-relazione-di-d.e."><![CDATA[altra relazione di D.E.]]></roleName>
+                  <name role="altra relazione di D.E." ref="#p193125"/>
+                  <locus type="carte"/>
+                  <note/>
+                </item>
+                <item n="3">
+                  <roleName type="responsabilita" ref="#possessore"><![CDATA[possessore]]></roleName>
+                  <name role="possessore" ref="#p208651"/>
+                  <locus type="carte"/>
+                  <note/>
+                </item>
+                <item n="4">
+                  <roleName type="responsabilita" ref="#possessore"><![CDATA[possessore]]></roleName>
+                  <name role="possessore" ref="#p208670"/>
+                  <locus type="carte"/>
+                  <note/>
+                </item>
+                <item n="5">
+                  <roleName type="responsabilita" ref="#possessore"><![CDATA[possessore]]></roleName>
+                  <name role="possessore" ref="#p217621"/>
+                  <locus type="carte"/>
+                  <note/>
+                </item>
+                <item n="6">
+                  <roleName type="responsabilita" ref="#altra-relazione-di-d.e."><![CDATA[altra relazione di D.E.]]></roleName>
+                  <name role="altra relazione di D.E." ref="#p230377"/>
+                  <locus type="carte"/>
+                  <note/>
+                </item>
+                <item n="7">
+                  <roleName type="responsabilita" ref="#possessore"><![CDATA[possessore]]></roleName>
+                  <name role="possessore" ref="#o321044"/>
+                  <locus type="carte"/>
+                  <note/>
+                </item>
+              </list>
+            </summary>
+            <origin>
+              <origDate evidence="conjecture" type="Stimata" from="1351" to="1400">
+                <origDate type="anno"><![CDATA[1351]]></origDate>
+                <origDate type="anno"><![CDATA[1400]]></origDate>
+              </origDate>
+              <desc type="formulazione-datazione"/>
+              <locus type="carta"/>
+              <note type="sezione" subtype="4" n="datazione"/>
+            </origin>
+            <provenance type="elementi-storici">
+              <desc><![CDATA[Manoscritto appartenuto alla Biblioteca di <i>Piero del Nero</i> (15??-1598), in seguito  alla famiglia <i>Guadagni di Firenze</i> e a <i>Gaetano Poggiali</i> (1753-1814), editore di Livorno; dopo la sua morte fu acquistato nel 1816 insieme a tutti i volumi della libreria Poggiali dal bibliotecario <i>Francesco Tassi</i> (1779-1857) per conto di Ferdinando III di Lorena, granduca di Toscana, per divenire parte della biblioteca Palatina Lorenese con sede a Palazzo Pitti, fino a quando il 1 febbraio 1862 il bibliotecario prof. Atto Vannucci (Tobbiana di Montale 1810 - Firenze 1883) prese la direzione della Biblioteca Palatina per unirla alla Biblioteca Nazionale, secondo il R. Decreto del 22 dicembre 1861, ms., 1862 (Firenze, BNCF, Sala manoscritti e rari, Cataloghi 9), f. 7r (cit. Pal. E.5.3.43). 
+Giunio Carbone (Genova 1805 - Firenze 1881), responsabile del nuovo catalogo della sala manoscritti dal 1863, lo descrive nell'<i>Inventario del Banco, ms., sec. XIX</i> (Firenze, BNCF, Sala manoscritti e rari, Cataloghi 12a), p. 10 (cit. 5.1.11; «Codice di poesie con parte della cantica del Paradiso. Autografo del Petrarca. sec. XIV». In margine: «Petrarca autografo») e scrive in inchiostro bruno sul manoscritto stesso al verso della II carta di guardia anteriore «Autografo del Petrarca secondo Palermo. Catalogo della Palatina, vol. II, p. 599».  
+Teresa Lodi (Ferrara 1889 - Ancona 1971), reggente sottobibliotecaria dal 1913, lo descrisse nell'<i>Inventario del Banco Rari della Biblioteca Nazionale Centrale di Firenze, ms., 1914-1916</i> (Firenze, Biblioteca Nazionale Centrale, Sala manoscritti e rari, Cataloghi 12b), f. 5v (cit. 5.1.11; «Rime varie. Ms. cart. sec. XIV (Il Palermo lo ritenne autografo del Petrarca)»), inoltre annota sul verso della prima carta di guardia posteriore in inchiostro bruno «Cc. 32 num. modern., delle quali sono bianche le cc. 10, 25, 27-32. / Marzo 1921 / TL» e a c. 10v corregge a lapis la lettura <i>infertur</i> in «<i>refertur / TL</i>» sotto l'annotazione a inchiostro del predecessore Giunio Carbone: «La nota sopraposta al verso 6; colonna I, dice: <i>hoc infertur ad gratiam divinam.</i>».]]></desc>
+            </provenance>
+            <provenance type="segnatura" n="1">
+              <idno type="antica-segnatura"><![CDATA[5.1.11]]></idno>
+              <date type="datazione"/>
+              <note type="sezione" subtype="antica-segnatura"/>
+            </provenance>
+            <provenance type="segnatura" n="2">
+              <idno type="antica-segnatura"><![CDATA[Pal. 180]]></idno>
+              <date type="datazione"/>
+              <note type="sezione" subtype="antica-segnatura"/>
+            </provenance>
+            <provenance type="segnatura" n="3">
+              <idno type="antica-segnatura"><![CDATA[Pal. 199]]></idno>
+              <date type="datazione"/>
+              <note type="sezione" subtype="antica-segnatura"/>
+            </provenance>
+            <provenance type="segnatura" n="4">
+              <idno type="antica-segnatura"><![CDATA[Pal. E.5.3.43]]></idno>
+              <date type="datazione"/>
+              <note type="sezione" subtype="antica-segnatura"><![CDATA[detto «Quinterno Palatino»]]></note>
+            </provenance>
+            <acquisition when="1862-02-01">
+              <date>
+                <date type="anno"><![CDATA[1862]]></date>
+                <date type="mese"><![CDATA[02]]></date>
+                <date type="giorno"><![CDATA[01]]></date>
+              </date>
+            </acquisition>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <state type="identificazione-manoscritto" ref="#scheda-di-prima-mano">
+                    <label><![CDATA[Natura della descrizione]]></label>
+                    <desc>
+                      <term><![CDATA[Scheda di prima mano]]></term>
+                    </desc>
+                  </state>
+                </source>
+                <change type="ultima-modifica" status="modificato" when="2021-11-26" who="Denise Ugliano"/>
+                <change type="creazione" status="creato" when="2017-04-26" who="Ciro  Perna"/>
+              </recordHist>
+              <availability>
+                <ab>
+                  <idno type="collocazione-fisica"/>
+                </ab>
+              </availability>
+              <custodialHist>
+                <custEvent type="restauro">
+                  <desc/>
+                </custEvent>
+                <custEvent type="restauro">
+                  <label><![CDATA[nuovo intervento di restauro]]></label>
+                  <desc/>
+                </custEvent>
+              </custodialHist>
+              <noteGrp>
+                <note type="sezione" subtype="1" n=""><![CDATA[Autore della scheda: Denise Ugliano]]></note>
+                <note type="osservazioni"><![CDATA[Scrittura e mani
+Mano 1: progetto originario; Mano 2: aggiunta a progetto originario; Mano 3: progetto originario.
+
+Il manoscritto contiene glosse di varie mani soprattutto nella parte relativa alla <i>Commedia</i>, rasure di alcune di esse meglio visibili a luce ultravioletta, più cartulazioni a numeri romani, e annotazioni per rubriche per metà rifilate ed erase lungo il margine inferiore.]]></note>
+                <note type="osservazioni" subtype="bibliografia"/>
+              </noteGrp>
+            </adminInfo>
+            <listBibl>
+              <listBibl type="stampa">
+                <bibl n="1" rend="HTML"><![CDATA[BATINES 1845-46, to. II p. 91 nr. 165 e p. 353 nr. 589.IV; MOORE 1889, p. 559; PETROCCHI 1966-67, p. 523; Mostra di codici, pp. 28-30 nr. 34; RODDEWIG 1984, p. 111 nr. 261; BOSCHI ROTIROTI 2004, pp. 19, 40, 104, 125 nr. 126, 158, 222 e tav. 54; Censimento I, p. 655-656 nr. 245; BERTELLI 2016, pp. 69, 165-167, 518-520 nr. 42 (anche per ulteriori rinvii bibliografici)]]></bibl>
+              </listBibl>
+              <listBibl type="non-stampa">
+                <bibl n="1" rend="HTML"><![CDATA[Firenze, Biblioteca Nazionale Centrale, Sala manoscritti e rari, Cataloghi 9, f. 7r (cit. Pal. E.5.3.43).
+
+Giunio Carbone, Inventario del Banco, [con aggiunte di Bartolomeo Podestà], ms., sec. XIX (Firenze, Biblioteca Nazionale Centrale, Sala manoscritti e rari, Cataloghi 12a), p. 10.
+
+Teresa Lodi, Inventario del Banco Rari della Biblioteca Nazionale Centrale di Firenze, ms., 1914-1916 (Firenze, Biblioteca Nazionale Centrale, Sala manoscritti e rari, Cataloghi 12b), f. 5v.]]></bibl>
+              </listBibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc><schemaRef url="https://tei-c.org/release/xml/tei/custom/odd/tei_ms.odd"/>
+        <appInfo>
+            <application xml:id="mol2.0" when="2021-12-16" type="redazione" ident="MOL" version="2.0">
+                <label>MOL</label>
+                <desc>Manus On Line Application</desc>
+                <ptr target="https://mol.iccu.sbn.it"/>
+            </application>
+        </appInfo>
+        <projectDesc><p><desc type="progetto"><![CDATA[Catalogazione dei manoscritti illustrati della Commedia- Illuminated Dante Project (XIV e XV secolo)]]></desc></p></projectDesc><classDecl>
+    <taxonomy xml:id="identificazione-manoscritto">
+        <taxonomy xml:id="natura-descrizione">
+            <category xml:id="scheda-di-prima-mano">
+                <catDesc>
+                    <term>Scheda di prima mano</term>
+                </catDesc>
+            </category>
+            <category xml:id="recupero">
+                <catDesc>
+                    <term>Recupero</term>
+                </catDesc>
+            </category>
+        </taxonomy>
+    </taxonomy>
+    <taxonomy xml:id="composizione-materiale">
+        <taxonomy xml:id="fascicoli-frammento">
+            <category xml:id="fascicoli-legati">
+                <catDesc>
+                    <term>fascicoli legati</term>
+                </catDesc>
+            </category>
+            <category xml:id="frammento">
+                <catDesc>
+                    <term>frammento</term>
+                </catDesc>
+            </category>
+        </taxonomy>
+        <taxonomy xml:id="altra-forma">
+            <category xml:id="creste">
+                <catDesc>
+                    <term>A creste</term>
+                </catDesc>
+            </category>
+            <category xml:id="farfalla">
+                <catDesc>
+                    <term>A farfalla</term>
+                </catDesc>
+            </category>
+            <category xml:id="paravento">
+                <catDesc>
+                    <term>A paravento</term>
+                </catDesc>
+            </category>
+            <category xml:id="ventaglio">
+                <catDesc>
+                    <term>A ventaglio</term>
+                </catDesc>
+            </category>
+            <category xml:id="pothi">
+                <catDesc>
+                    <term>Pothi</term>
+                </catDesc>
+            </category>
+            <category xml:id="rotolo">
+                <catDesc>
+                    <term>Rotolo</term>
+                </catDesc>
+            </category>
+        </taxonomy>
+        <taxonomy xml:id="parti-a-stampa">
+            <category xml:id="parti-stampa">
+                <catDesc>
+                    <term>parti a stampa</term>
+                </catDesc>
+            </category>
+        </taxonomy>
+    </taxonomy>
+    <taxonomy xml:id="palinsesto">
+        <taxonomy xml:id="presenza-palinsesto">
+            <category xml:id="palinsest">
+                <catDesc>
+                    <term>Palinsesto</term>
+                </catDesc>
+            </category>
+        </taxonomy>
+        <taxonomy xml:id="tipo-palinsesto">
+            <category xml:id="integrale">
+                <catDesc>
+                    <term>Integrale</term>
+                </catDesc>
+            </category>
+            <category xml:id="parziale">
+                <catDesc>
+                    <term>Parziale</term>
+                </catDesc>
+            </category>
+        </taxonomy>
+    </taxonomy>
+    <taxonomy xml:id="datazione">
+        <taxonomy xml:id="tipo-data">
+            <category xml:id="espressa">
+                <catDesc>
+                    <term>Espressa</term>
+                </catDesc>
+            </category>
+            <category xml:id="desumibile">
+                <catDesc>
+                    <term>Desumibile</term>
+                </catDesc>
+            </category>
+            <category xml:id="stimata">
+                <catDesc>
+                    <term>Stimata</term>
+                </catDesc>
+            </category>
+        </taxonomy>
+        <taxonomy xml:id="era">
+            <category xml:id="era-cristiana">
+                <catDesc>
+                    <term>Era cristiana</term>
+                </catDesc>
+            </category>
+            <category xml:id="era-bizantina">
+                <catDesc>
+                    <term>Era bizantina</term>
+                </catDesc>
+            </category>
+            <category xml:id="era-fondazione-roma">
+                <catDesc>
+                    <term>Era della fondazione di Roma</term>
+                </catDesc>
+            </category>
+            <category xml:id="era-diocleziano-martire">
+                <catDesc>
+                    <term>Era di Diocleziano o dei Martiri</term>
+                </catDesc>
+            </category>
+            <category xml:id="egira">
+                <catDesc>
+                    <term>Egira</term>
+                </catDesc>
+            </category>
+        </taxonomy>
+    </taxonomy>
+    <taxonomy xml:id="materia">
+        <taxonomy xml:id="corpo-codice">
+            <category xml:id="membranaceo">
+                <catDesc>
+                    <term>Membranaceo</term>
+                </catDesc>
+            </category>
+            <category xml:id="cartaceo">
+                <catDesc>
+                    <term>Cartaceo</term>
+                </catDesc>
+            </category>
+            <category xml:id="misto">
+                <catDesc>
+                    <term>Misto</term>
+                </catDesc>
+            </category>
+            <category xml:id="papiraceo">
+                <catDesc>
+                    <term>Papiraceo</term>
+                </catDesc>
+            </category>
+            <category xml:id="altro-supporto">
+                <catDesc>
+                    <term>Altro supporto</term>
+                </catDesc>
+            </category>
+        </taxonomy>
+        <taxonomy xml:id="materia-guardie">
+            <category xml:id="guardie">
+                <catDesc>
+                    <term>guardie</term>
+                </catDesc>
+            </category>
+            <category xml:id="membranacee">
+                <catDesc>
+                    <term>Membranaceo</term>
+                </catDesc>
+            </category>
+            <category xml:id="cartacee">
+                <catDesc>
+                    <term>Cartaceo</term>
+                </catDesc>
+            </category>
+        </taxonomy>
+        <category xml:id="miste">
+            <catDesc>
+                <term>Misto</term>
+            </catDesc>
+        </category>
+        <category xml:id="papiracee">
+            <catDesc>
+                <term>Papiraceo</term>
+            </catDesc>
+        </category>
+        <category xml:id="guardie-altro-supporto">
+            <catDesc>
+                <term>Altro supporto</term>
+            </catDesc>
+        </category>
+    </taxonomy>
+    <taxonomy xml:id="consistenza">
+        <taxonomy xml:id="frammenti-in-situ">
+            <category xml:id="brachetta">
+                <catDesc>
+                    <term>Brachetta</term>
+                </catDesc>
+            </category>
+            <category xml:id="carta-guardia">
+                <catDesc>
+                    <term>Carta di guardia</term>
+                </catDesc>
+            </category>
+            <category xml:id="legatura-frammento">
+                <catDesc>
+                    <term>Legatura</term>
+                </catDesc>
+            </category>
+            <category xml:id="offset">
+                <catDesc>
+                    <term>Offset</term>
+                </catDesc>
+            </category>
+            <category xml:id="rinforso-dorso">
+                <catDesc>
+                    <term>Rinforso del dorso</term>
+                </catDesc>
+            </category>
+        </taxonomy>
+    </taxonomy>
+    <taxonomy xml:id="paleografico-codicologico">
+        <taxonomy xml:id="tags">
+            <category xml:id="mano1">
+                <catDesc>
+                    <term>mano1</term>
+                </catDesc>
+            </category>
+            <category xml:id="mano2">
+                <catDesc>
+                    <term>mano2</term>
+                </catDesc>
+            </category>
+            <category xml:id="scrittura">
+                <catDesc>
+                    <term>scrittura</term>
+                </catDesc>
+            </category>
+        </taxonomy>
+    </taxonomy>
+    <taxonomy xml:id="decorazione">
+        <taxonomy xml:id="elementi-funzionali">
+            <category xml:id="rubriche">
+                <catDesc>
+                    <term>rubriche</term>
+                </catDesc>
+            </category>
+            <category xml:id="titoli-correnti">
+                <catDesc>
+                    <term>titoli correnti</term>
+                </catDesc>
+            </category>
+        </taxonomy>
+        <taxonomy xml:id="decorazioni-pagine">
+            <category xml:id="pagine-illustrate">
+                <catDesc>
+                    <term>pagine illustrate</term>
+                </catDesc>
+            </category>
+            <category xml:id="pagine-ornate">
+                <catDesc>
+                    <term>pagine ornate</term>
+                </catDesc>
+            </category>
+            <category xml:id="pyle">
+                <catDesc>
+                    <term>Pyle</term>
+                </catDesc>
+            </category>
+            <category xml:id="unwan">
+                <catDesc>
+                    <term>'Unwan</term>
+                </catDesc>
+            </category>
+        </taxonomy>
+        <taxonomy xml:id="iniziali-semplici-colori">
+            <category xml:id="arancione">
+                <catDesc>
+                    <term>Arancione</term>
+                </catDesc>
+            </category>
+            <category xml:id="blu">
+                <catDesc>
+                    <term>Blu</term>
+                </catDesc>
+            </category>
+            <category xml:id="lilla">
+                <catDesc>
+                    <term>Lilla</term>
+                </catDesc>
+            </category>
+            <category xml:id="iniziali-oro">
+                <catDesc>
+                    <term>Oro</term>
+                </catDesc>
+            </category>
+            <category xml:id="rosso">
+                <catDesc>
+                    <term>Rosso</term>
+                </catDesc>
+            </category>
+            <category xml:id="verde">
+                <catDesc>
+                    <term>Verde</term>
+                </catDesc>
+            </category>
+        </taxonomy>
+        <taxonomy xml:id="iniziali-filigranate">
+            <category xml:id="penna">
+                <catDesc>
+                    <term>Penna</term>
+                </catDesc>
+            </category>
+            <category xml:id="pennello">
+                <catDesc>
+                    <term>Pennello</term>
+                </catDesc>
+            </category>
+        </taxonomy>
+        <taxonomy xml:id="iniziali-ornate">
+            <category xml:id="con-segno-alfabetico">
+                <catDesc>
+                    <term>Con segno alfabetico</term>
+                </catDesc>
+            </category>
+            <category xml:id="senza-segno-alfabetico">
+                <catDesc>
+                    <term>Senza segno alfabetico</term>
+                </catDesc>
+            </category>
+        </taxonomy>
+        <taxonomy xml:id="presenza-oro-azzurro">
+            <category xml:id="presenza-oro">
+                <catDesc>
+                    <term>Presenza di oro e oro in foglia</term>
+                </catDesc>
+            </category>
+            <category xml:id="presenza-azzurro">
+                <catDesc>
+                    <term>presenza di azzurro</term>
+                </catDesc>
+            </category>
+        </taxonomy>
+    </taxonomy>
+    <taxonomy xml:id="notazione-musicale">
+        <taxonomy xml:id="tipo-notazione-musicale">
+            <category xml:id="moderna">
+                <catDesc>
+                    <term>moderna</term>
+                </catDesc>
+            </category>
+            <category xml:id="neumatica">
+                <catDesc>
+                    <term>neumatica</term>
+                </catDesc>
+            </category>
+            <category xml:id="quadrata">
+                <catDesc>
+                    <term>quadrata</term>
+                </catDesc>
+            </category>
+            <category xml:id="letterale">
+                <catDesc>
+                    <term>letterale</term>
+                </catDesc>
+            </category>
+            <category xml:id="intavolatura">
+                <catDesc>
+                    <term>intavolatura</term>
+                </catDesc>
+            </category>
+            <category xml:id="alfabeto">
+                <catDesc>
+                    <term>alfabeto</term>
+                </catDesc>
+            </category>
+        </taxonomy>
+        <taxonomy xml:id="notazione-musicale-neumatica">
+            <category xml:id="beneventana">
+                <catDesc>
+                    <term>beneventana</term>
+                </catDesc>
+            </category>
+            <category xml:id="bolognese">
+                <catDesc>
+                    <term>bolognese</term>
+                </catDesc>
+            </category>
+            <category xml:id="comasca">
+                <catDesc>
+                    <term>comasca</term>
+                </catDesc>
+            </category>
+            <category xml:id="germanica">
+                <catDesc>
+                    <term>germanica</term>
+                </catDesc>
+            </category>
+            <category xml:id="gotica-germanica">
+                <catDesc>
+                    <term>gotica germanica</term>
+                </catDesc>
+            </category>
+            <category xml:id="gotica-lombarda">
+                <catDesc>
+                    <term>gotica lombarda</term>
+                </catDesc>
+            </category>
+            <category xml:id="nonantolana">
+                <catDesc>
+                    <term>nonantolana</term>
+                </catDesc>
+            </category>
+            <category xml:id="normanna">
+                <catDesc>
+                    <term>normanna</term>
+                </catDesc>
+            </category>
+            <category xml:id="novalicense">
+                <catDesc>
+                    <term>novalicense</term>
+                </catDesc>
+            </category>
+            <category xml:id="novarese">
+                <catDesc>
+                    <term>novarese</term>
+                </catDesc>
+            </category>
+            <category xml:id="punti-col_legati">
+                <catDesc>
+                    <term>punti (col)legati</term>
+                </catDesc>
+            </category>
+            <category xml:id="ravennate">
+                <catDesc>
+                    <term>ravennate</term>
+                </catDesc>
+            </category>
+            <category xml:id="sangallese">
+                <catDesc>
+                    <term>sangallese</term>
+                </catDesc>
+            </category>
+            <category xml:id="toscana">
+                <catDesc>
+                    <term>toscana</term>
+                </catDesc>
+            </category>
+            <category xml:id="vercellese">
+                <catDesc>
+                    <term>vercellese</term>
+                </catDesc>
+            </category>
+            <category xml:id="veronese">
+                <catDesc>
+                    <term>veronese</term>
+                </catDesc>
+            </category>
+        </taxonomy>
+    </taxonomy>
+    <taxonomy xml:id="legatura">
+        <taxonomy xml:id="materia-assi-quadranti">
+            <category xml:id="legno">
+                <catDesc>
+                    <term>Legno</term>
+                </catDesc>
+            </category>
+            <category xml:id="cartone">
+                <catDesc>
+                    <term>Cartone</term>
+                </catDesc>
+            </category>
+            <category xml:id="altra-materia-assi-quadranti">
+                <catDesc>
+                    <term>Altro</term>
+                </catDesc>
+            </category>
+        </taxonomy>
+        <taxonomy xml:id="materia-coperta">
+            <category xml:id="pergamena">
+                <catDesc>
+                    <term>Pergamena</term>
+                </catDesc>
+            </category>
+            <category xml:id="pelle">
+                <catDesc>
+                    <term>Pelle</term>
+                </catDesc>
+            </category>
+            <category xml:id="carta">
+                <catDesc>
+                    <term>Carta</term>
+                </catDesc>
+            </category>
+            <category xml:id="tessuto">
+                <catDesc>
+                    <term>Tessuto</term>
+                </catDesc>
+            </category>
+            <category xml:id="frammenti-manoscritti">
+                <catDesc>
+                    <term>Frammenti di manoscritti</term>
+                </catDesc>
+            </category>
+            <category xml:id="altra-materia-coperta">
+                <catDesc>
+                    <term>Altro</term>
+                </catDesc>
+            </category>
+        </taxonomy>
+        <taxonomy xml:id="decorazione-coperta">
+            <category xml:id="a-secco">
+                <catDesc>
+                    <term>A secco</term>
+                </catDesc>
+            </category>
+            <category xml:id="oro">
+                <catDesc>
+                    <term>Oro</term>
+                </catDesc>
+            </category>
+            <category xml:id="altra-decorazione-coperta">
+                <catDesc>
+                    <term>Altro</term>
+                </catDesc>
+            </category>
+        </taxonomy>
+        <taxonomy xml:id="elementi-metallici">
+            <category xml:id="fermagli">
+                <catDesc>
+                    <term>Fermagli</term>
+                </catDesc>
+            </category>
+            <category xml:id="borchie">
+                <catDesc>
+                    <term>Borchie</term>
+                </catDesc>
+            </category>
+            <category xml:id="cantonali">
+                <catDesc>
+                    <term>cantonali</term>
+                </catDesc>
+            </category>
+            <category xml:id="lacci">
+                <catDesc>
+                    <term>Lacci</term>
+                </catDesc>
+            </category>
+            <category xml:id="bindelle">
+                <catDesc>
+                    <term>Bindelle</term>
+                </catDesc>
+            </category>
+            <category xml:id="ribalta">
+                <catDesc>
+                    <term>Ribalta</term>
+                </catDesc>
+            </category>
+            <category xml:id="altri-elementi-metallici">
+                <catDesc>
+                    <term>Altro</term>
+                </catDesc>
+            </category>
+        </taxonomy>
+    </taxonomy>
+    <taxonomy xml:id="conservazione-restauro">
+        <taxonomy xml:id="stato-conservazione">
+            <category xml:id="pessimo">
+                <catDesc>
+                    <term>Pessimo</term>
+                </catDesc>
+            </category>
+            <category xml:id="cattivo">
+                <catDesc>
+                    <term>Cattivo</term>
+                </catDesc>
+            </category>
+            <category xml:id="discreto">
+                <catDesc>
+                    <term>Discreto</term>
+                </catDesc>
+            </category>
+            <category xml:id="buono">
+                <catDesc>
+                    <term>Buono</term>
+                </catDesc>
+            </category>
+            <category xml:id="ottimo">
+                <catDesc>
+                    <term>Ottimo</term>
+                </catDesc>
+            </category>
+        </taxonomy>
+        <taxonomy xml:id="restauro">
+            <category xml:id="restaurato">
+                <catDesc>
+                    <term>ha subito interventi di restauro</term>
+                </catDesc>
+            </category>
+            <category xml:id="necessita-restauro">
+                <catDesc>
+                    <term>necessita di un nuovo intervento di restauro</term>
+                </catDesc>
+            </category>
+        </taxonomy>
+    </taxonomy>
+    <taxonomy xml:id="descrizione-interna">
+        <taxonomy xml:id="tipologia-DI">
+            <category xml:id="decorato">
+                <catDesc>
+                    <term>Decorato</term>
+                </catDesc>
+            </category>
+            <category xml:id="musicato">
+                <catDesc>
+                    <term>Musicato</term>
+                </catDesc>
+            </category>
+            <category xml:id="cartografia">
+                <catDesc>
+                    <term>Cartografia</term>
+                </catDesc>
+            </category>
+        </taxonomy>
+        <taxonomy xml:id="autografia">
+            <category xml:id="autografo">
+                <catDesc>
+                    <term>Autografo</term>
+                </catDesc>
+            </category>
+        </taxonomy>
+    </taxonomy>
+    <taxonomy xml:id="carteggio">
+        <taxonomy xml:id="tipo-carteggio">
+            <category xml:id="allegato">
+                <catDesc>
+                    <term>allegato</term>
+                </catDesc>
+            </category>
+            <category xml:id="articolo-di-periodico">
+                <catDesc>
+                    <term>articolo di periodico</term>
+                </catDesc>
+            </category>
+            <category xml:id="biglietto">
+                <catDesc>
+                    <term>biglietto</term>
+                </catDesc>
+            </category>
+            <category xml:id="biglietto-da-visita">
+                <catDesc>
+                    <term>biglietto da visita</term>
+                </catDesc>
+            </category>
+            <category xml:id="tipo-busta">
+                <catDesc>
+                    <term>busta</term>
+                </catDesc>
+            </category>
+            <category xml:id="cartolina-illustrata">
+                <catDesc>
+                    <term>cartolina illustrata</term>
+                </catDesc>
+            </category>
+            <category xml:id="cartolina-postale">
+                <catDesc>
+                    <term>cartolina postale</term>
+                </catDesc>
+            </category>
+            <category xml:id="cartoncino-illustrato">
+                <catDesc>
+                    <term>cartoncino illustrato</term>
+                </catDesc>
+            </category>
+            <category xml:id="estratto">
+                <catDesc>
+                    <term>estratto</term>
+                </catDesc>
+            </category>
+            <category xml:id="fotografia">
+                <catDesc>
+                    <term>fotografia</term>
+                </catDesc>
+            </category>
+            <category xml:id="lettera">
+                <catDesc>
+                    <term>lettera</term>
+                </catDesc>
+            </category>
+            <category xml:id="lettera-allegato">
+                <catDesc>
+                    <term>lettera con allegato</term>
+                </catDesc>
+            </category>
+            <category xml:id="telegramma">
+                <catDesc>
+                    <term>telegramma</term>
+                </catDesc>
+            </category>
+        </taxonomy>
+        <taxonomy xml:id="natura">
+            <category xml:id="originale">
+                <catDesc>
+                    <term>Originale</term>
+                </catDesc>
+            </category>
+            <category xml:id="copia">
+                <catDesc>
+                    <term>Copia</term>
+                </catDesc>
+            </category>
+            <category xml:id="minuta">
+                <catDesc>
+                    <term>Minuta</term>
+                </catDesc>
+            </category>
+        </taxonomy>
+        <taxonomy xml:id="altra-natura">
+            <category xml:id="busta">
+                <catDesc>
+                    <term>Busta</term>
+                </catDesc>
+            </category>
+            <category xml:id="dattiloscritto">
+                <catDesc>
+                    <term>Dattiloscritto</term>
+                </catDesc>
+            </category>
+            <category xml:id="carta-intestata">
+                <catDesc>
+                    <term>Carta intestata</term>
+                </catDesc>
+            </category>
+            <category xml:id="firma-autografa">
+                <catDesc>
+                    <term>Firma autografa</term>
+                </catDesc>
+            </category>
+            <category xml:id="annotazioni">
+                <catDesc>
+                    <term>Annotazioni</term>
+                </catDesc>
+            </category>
+        </taxonomy>
+        <taxonomy xml:id="luogo">
+            <category xml:id="luogo-di-spedizione">
+                <catDesc>
+                    <term>Luogo di spedizione</term>
+                </catDesc>
+            </category>
+            <category xml:id="luogo-di-ricezione">
+                <catDesc>
+                    <term>Luogo di ricezione</term>
+                </catDesc>
+            </category>
+        </taxonomy>
+    </taxonomy>
+    <taxonomy xml:id="responsabilita">
+        <taxonomy xml:id="responsabilita-scheda">
+            <category xml:id="editing">
+                <catDesc>
+                    <term>compilatore della scheda</term>
+                </catDesc>
+            </category>
+        </taxonomy>
+        <taxonomy xml:id="responsabilita-DE">
+            <category xml:id="altra-relazione-di-d.e.">
+                <catDesc>
+                    <term>altra relazione di D.E.</term>
+                </catDesc>
+            </category>
+            <category xml:id="certificatore">
+                <catDesc>
+                    <term>certificatore</term>
+                </catDesc>
+            </category>
+            <category xml:id="committente">
+                <catDesc>
+                    <term>committente</term>
+                </catDesc>
+            </category>
+            <category xml:id="copista">
+                <catDesc>
+                    <term>copista</term>
+                </catDesc>
+            </category>
+            <category xml:id="illustratore">
+                <catDesc>
+                    <term>illustratore</term>
+                </catDesc>
+            </category>
+            <category xml:id="legatore">
+                <catDesc>
+                    <term>legatore</term>
+                </catDesc>
+            </category>
+            <category xml:id="lettore">
+                <catDesc>
+                    <term>lettore</term>
+                </catDesc>
+            </category>
+            <category xml:id="libraio">
+                <catDesc>
+                    <term>libraio</term>
+                </catDesc>
+            </category>
+            <category xml:id="luogo-di-copia">
+                <catDesc>
+                    <term>luogo di copia</term>
+                </catDesc>
+            </category>
+            <category xml:id="luogo-di-copia-presunto">
+                <catDesc>
+                    <term>luogo di copia, presunto</term>
+                </catDesc>
+            </category>
+            <category xml:id="notaio">
+                <catDesc>
+                    <term>notaio</term>
+                </catDesc>
+            </category>
+            <category xml:id="possessore">
+                <catDesc>
+                    <term>possessore</term>
+                </catDesc>
+            </category>
+            <category xml:id="provenienza">
+                <catDesc>
+                    <term>provenienza</term>
+                </catDesc>
+            </category>
+            <category xml:id="raccoglitore">
+                <catDesc>
+                    <term>raccoglitore</term>
+                </catDesc>
+            </category>
+            <category xml:id="restauratore">
+                <catDesc>
+                    <term>restauratore</term>
+                </catDesc>
+            </category>
+        </taxonomy>
+        <taxonomy xml:id="responsabilita-DI">
+            <category xml:id="altra-relazione-di-d.i.">
+                <catDesc>
+                    <term>altra relazione di D.I.</term>
+                </catDesc>
+            </category>
+            <category xml:id="amministratore">
+                <catDesc>
+                    <term>amministratore</term>
+                </catDesc>
+            </category>
+            <category xml:id="autore">
+                <catDesc>
+                    <term>autore</term>
+                </catDesc>
+            </category>
+            <category xml:id="autore-incerto">
+                <catDesc>
+                    <term>autore incerto</term>
+                </catDesc>
+            </category>
+            <category xml:id="commentatore">
+                <catDesc>
+                    <term>commentatore</term>
+                </catDesc>
+            </category>
+            <category xml:id="compositore">
+                <catDesc>
+                    <term>compositore</term>
+                </catDesc>
+            </category>
+            <category xml:id="dedicatario">
+                <catDesc>
+                    <term>dedicatario</term>
+                </catDesc>
+            </category>
+            <category xml:id="destinatario">
+                <catDesc>
+                    <term>destinatario</term>
+                </catDesc>
+            </category>
+            <category xml:id="epitomatore">
+                <catDesc>
+                    <term>epitomatore</term>
+                </catDesc>
+            </category>
+            <category xml:id="glossatore">
+                <catDesc>
+                    <term>glossatore</term>
+                </catDesc>
+            </category>
+            <category xml:id="traduttore">
+                <catDesc>
+                    <term>traduttore</term>
+                </catDesc>
+            </category>
+            <category xml:id="translitteratore">
+                <catDesc>
+                    <term>translitteratore</term>
+                </catDesc>
+            </category>
+            <category xml:id="volgarizzatore">
+                <catDesc>
+                    <term>volgarizzatore</term>
+                </catDesc>
+            </category>
+        </taxonomy>
+        <taxonomy xml:id="responsabilta-carteggio">
+            <category xml:id="altra-rel-DI-carteggio">
+                <catDesc>
+                    <term>altra relazione di D.I.</term>
+                </catDesc>
+            </category>
+            <category xml:id="autore-citato">
+                <catDesc>
+                    <term>autore citato</term>
+                </catDesc>
+            </category>
+            <category xml:id="certificatore-carteggio">
+                <catDesc>
+                    <term>certificatore</term>
+                </catDesc>
+            </category>
+            <category xml:id="copista-carteggio">
+                <catDesc>
+                    <term>copista</term>
+                </catDesc>
+            </category>
+            <category xml:id="destinatario-carteggio">
+                <catDesc>
+                    <term>destinatario</term>
+                </catDesc>
+            </category>
+            <category xml:id="destinatario-incerto">
+                <catDesc>
+                    <term>destinatario incerto</term>
+                </catDesc>
+            </category>
+            <category xml:id="mittente">
+                <catDesc>
+                    <term>mittente</term>
+                </catDesc>
+            </category>
+            <category xml:id="mittente-incerto">
+                <catDesc>
+                    <term>mittente incerto</term>
+                </catDesc>
+            </category>
+        </taxonomy>
+    </taxonomy>
+</classDecl></encodingDesc>
+    <profileDesc>
+      <textClass> 
+                <keywords>
+                    <term type="raggruppamento" subtype="segnatura">raggruppamento-segnatura</term>
+                </keywords>
+            </textClass>
+    </profileDesc>
+    <revisionDesc status="Pubblicata">
+      <change when="2023-04-13"><![CDATA[La scheda è stata generata dal sistema]]></change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile n="interno"/>
+  <facsimile n="esterno">
+    <graphic mimeType="image/jpeg" url="https://archive.org/stream/icodicipalatinid01floruoft#page/184/mode/2up" n="catalogo 1">
+      <desc type="esterno">
+        <state>
+          <label><![CDATA[tipologia]]></label>
+          <desc><![CDATA[immagine di catalogo]]></desc>
+        </state>
+        <state>
+          <label><![CDATA[Autore]]></label>
+          <desc>
+            <name><![CDATA[Luigi Gentile]]></name>
+          </desc>
+        </state>
+        <state>
+          <label><![CDATA[Titolo]]></label>
+          <desc>
+            <title><![CDATA[I codici Palatini, I, Roma, presso i principali librai, 1889,]]></title>
+          </desc>
+        </state>
+        <state>
+          <label><![CDATA[Numero di Pagina]]></label>
+          <desc>
+            <num><![CDATA[185]]></num>
+          </desc>
+        </state>
+      </desc>
+    </graphic>
+    <graphic mimeType="image/jpeg" url="http://teca.bncf.firenze.sbn.it/ImageViewer/servlet/ImageViewer?idr=TECA00000010560" n="manoscritto 1">
+      <desc type="esterno">
+        <state>
+          <label><![CDATA[tipologia]]></label>
+          <desc><![CDATA[immagine di manoscritto]]></desc>
+        </state>
+        <state>
+          <label><![CDATA[Numero di carta]]></label>
+          <desc><![CDATA[piatto anteriore]]></desc>
+        </state>
+      </desc>
+    </graphic>
+    <graphic mimeType="image/jpeg" url="https://archive.org/details/b.-r.-69-images/" n="manoscritto 2">
+      <desc type="esterno">
+        <state>
+          <label><![CDATA[tipologia]]></label>
+          <desc><![CDATA[immagine di manoscritto]]></desc>
+        </state>
+        <state>
+          <label><![CDATA[Numero di carta]]></label>
+          <desc><![CDATA[Dorso]]></desc>
+        </state>
+      </desc>
+    </graphic>
+  </facsimile>
+  <standOff>
+    <list type="authority">
+      <head><![CDATA[nomi legati al manoscritto]]></head>
+      <label><![CDATA[nomi di persona nel manoscritto]]></label>
+      <item n="persone">
+        <listPerson>
+          <person xml:id="p164403" n="1">
+            <persName key="CNMN\0000058347" type="authority">
+              <name type="A" n="Forma accettata e identificata"><![CDATA[Tassi, Francesco]]></name>
+            </persName>
+            <state type="SBN">
+              <label><![CDATA[Tipo Nome SBN]]></label>
+              <desc>
+                <idno><![CDATA[C]]></idno>
+              </desc>
+            </state>
+            <state type="SBN">
+              <label><![CDATA[VID SBN]]></label>
+              <desc>
+                <idno><![CDATA[TO0V091570]]></idno>
+              </desc>
+            </state>
+            <noteGrp>
+              <note type="biografica"><![CDATA[Bibliotecario della Palatina di Firenze dal 1815 al 1827; accademico della Crusca dal 1819; dal 1827 alla Biblioteca Riccardiana, che diresse fino al 1834.]]></note>
+            </noteGrp>
+          </person>
+          <person xml:id="p193125" n="2">
+            <persName key="CNMN\0000104361" type="authority">
+              <name type="A" n="Forma accettata e identificata"><![CDATA[Carbone, Giunio]]></name>
+              <roleName type="qualifica"><![CDATA[1805-1881]]></roleName>
+            </persName>
+            <state type="SBN">
+              <label><![CDATA[Tipo Nome SBN]]></label>
+              <desc>
+                <idno><![CDATA[C]]></idno>
+              </desc>
+            </state>
+            <state type="SBN">
+              <label><![CDATA[VID SBN]]></label>
+              <desc>
+                <idno><![CDATA[RAVV075820]]></idno>
+              </desc>
+            </state>
+          </person>
+          <person xml:id="p208651" n="3">
+            <persName key="CNMN\0000125392 0000000061297929" type="authority">
+              <name type="A" n="Forma accettata e identificata"><![CDATA[Poggiali, Gaetano]]></name>
+            </persName>
+            <floruit n="datazione"><![CDATA[1753-1814]]></floruit>
+            <state type="SBN">
+              <label><![CDATA[Tipo Nome SBN]]></label>
+              <desc>
+                <idno><![CDATA[C]]></idno>
+              </desc>
+            </state>
+            <state type="SBN">
+              <label><![CDATA[VID SBN]]></label>
+              <desc>
+                <idno><![CDATA[LO1V089535]]></idno>
+              </desc>
+            </state>
+            <noteGrp>
+              <note type="biografica"><![CDATA[Bibliofilo ed editore di testi (Livorno 1753 - <i>ivi</i> 1814), direttore della tipografia Masi di Livorno. Nel 1800 acquistò gran parte dei codici presenti nella biblioteca della famiglia Guadagni, tra i quali il codice Firenze, BNCF, Palatino 313 oggi conosciuto come "Dante Poggiali".]]></note>
+            </noteGrp>
+          </person>
+          <person xml:id="p208670" n="4">
+            <persName key="CNMN\0000125430" type="authority">
+              <name type="A" n="Forma accettata e identificata"><![CDATA[Ferdinando]]></name>
+              <roleName type="qualifica"><![CDATA[granduca di Toscana ; 3.]]></roleName>
+            </persName>
+            <floruit n="datazione"><![CDATA[1769-1824]]></floruit>
+            <state type="SBN">
+              <label><![CDATA[Tipo Nome SBN]]></label>
+              <desc>
+                <idno><![CDATA[A]]></idno>
+              </desc>
+            </state>
+            <state type="SBN">
+              <label><![CDATA[VID SBN]]></label>
+              <desc>
+                <idno><![CDATA[CFIV227672]]></idno>
+              </desc>
+            </state>
+          </person>
+          <person xml:id="p217621" n="5">
+            <persName key="CNMN\0000143471" type="authority">
+              <name type="A" n="Forma accettata e identificata"><![CDATA[Del_Nero, Pier]]></name>
+            </persName>
+            <floruit n="datazione"><![CDATA[m. 1598]]></floruit>
+            <state type="SBN">
+              <label><![CDATA[Tipo Nome SBN]]></label>
+              <desc>
+                <idno><![CDATA[C]]></idno>
+              </desc>
+            </state>
+            <noteGrp>
+              <note type="biografica"><![CDATA[Politico e letterato]]></note>
+            </noteGrp>
+          </person>
+          <person xml:id="p230377" n="6">
+            <persName key="CNMN\0000159322" type="authority">
+              <name type="A" n="Forma accettata e identificata"><![CDATA[Lodi, Teresa]]></name>
+            </persName>
+            <floruit n="datazione"><![CDATA[1889-1971]]></floruit>
+            <state type="SBN">
+              <label><![CDATA[Tipo Nome SBN]]></label>
+              <desc>
+                <idno><![CDATA[C]]></idno>
+              </desc>
+            </state>
+            <state type="SBN">
+              <label><![CDATA[VID SBN]]></label>
+              <desc>
+                <idno><![CDATA[RAVV071803]]></idno>
+              </desc>
+            </state>
+            <noteGrp>
+              <note type="biografica"><![CDATA[Nacque a Ferrara il 13 giugno 1889, morì ad Ancona il 7 aprile 1971. Bibliotecaria dall'aprile 1913 alla Biblioteca nazionale centrale di Firenze, fu addetta alla Sezione manoscritti e rari e ne divenne poco dopo responsabile, dal 1926 con la qualifica di bibliotecario capo. Svolse anche le funzioni di ispettrice per la Soprintendenza bibliografica della Toscana. Dal 1° luglio 1933 al 1° gennaio 1955 diresse la Biblioteca Medicea Laurenziana. Il suo carteggio è conservato alla Laurenziana.]]></note>
+            </noteGrp>
+          </person>
+        </listPerson>
+      </item>
+      <label><![CDATA[nomi di luoghi nel manoscritto]]></label>
+      <item n="luoghi">
+        <listPlace/>
+      </item>
+      <label><![CDATA[nomi di organizzazioni nel manoscritto]]></label>
+      <item n="organizzazioni">
+        <listOrg>
+          <org xml:id="o321044" n="1">
+            <orgName key="CNMN\0000288351" type="authority">
+              <name type="A" n="Forma accettata e identificata"><![CDATA[*Biblioteca *nazionale *centrale di *Firenze]]></name>
+            </orgName>
+            <state type="SBN">
+              <label><![CDATA[Tipo Nome SBN]]></label>
+              <desc>
+                <idno><![CDATA[E]]></idno>
+              </desc>
+            </state>
+            <state type="SBN">
+              <label><![CDATA[VID SBN]]></label>
+              <desc>
+                <idno><![CDATA[CFIV004270]]></idno>
+              </desc>
+            </state>
+          </org>
+        </listOrg>
+      </item>
+    </list>
+  </standOff>
+</TEI>
