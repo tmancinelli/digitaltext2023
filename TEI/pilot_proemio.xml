@@ -1,0 +1,842 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML"
+    xmlns:enrich="http://projects.oucs.ox.ac.uk/ENRICH/ODD/RomaResults/enrich.rng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Storia Fiorentina</title>
+                <author xml:id="B.V.">Benedetto Varchi</author>
+                <respStmt>
+               
+                        <resp>Responsabile progetto</resp>
+                        <persName xml:id="P.I.">Paola Italia</persName>
+                </respStmt>
+                <respStmt>
+                    
+                    <resp>Codifica</resp>
+                    <persName xml:id="R.P.">Roberta Priore</persName>
+                    
+                </respStmt>
+                <respStmt>
+                    <resp>Sviluppo interfaccia web</resp>
+                    <persName xml:id="V.P.">Valentina Pasqual</persName>
+                    
+                </respStmt>
+                <respStmt>
+                    <resp>Assistenza sviluppo interfaccia web</resp>
+                    <persName xml:id="M.C.">Milena Corbellini</persName>
+                    
+                </respStmt>
+                <respStmt>
+                    <resp>Edizione</resp>
+                    <persName xml:id="D.B.">Dario Brancato</persName>
+                </respStmt>
+                
+                
+            </titleStmt>
+            <publicationStmt>
+                <publisher>VaSto Project;</publisher>
+                <pubPlace>Bologna</pubPlace>
+                <date>2020</date>
+                <availability>
+                    <p>Questa risorsa digitale è liberamente accessibile per uso personale o
+                        scientifico. Ogni uso commerciale è vietato</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        <settlement>Roma</settlement>
+                        <repository>Accademia Nazionale dei Lincei e Corsiniana</repository>
+                        <idno>RC4</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote scribe="Bonsi" xml:id="A1">Mano di Bonsi, testo base su RC4;</handNote>
+                            <handNote scribe="Varchi" xml:id="A2">Mano di Varchi, revisioni;</handNote>
+                            <handNote scribe="Baldini" xml:id="A3"> Mano di Baldini, interventi di correzioni e
+                                aggiunte;</handNote>
+                            <handNote scribe="N.I." xml:id="A4">Altra mano non identificata</handNote>
+                        </handDesc>
+                    </physDesc>
+                    
+                </msDesc>
+                <listPerson>
+                    <person xml:id="Famiglia_Medici">
+                        <persName type="fam_citata">Medici</persName>
+                    </person>
+                    <person xml:id="Cosimo">
+                        <persName type="pers_citata"
+                            sameAs="http://viaf.org/viaf/121802096"
+                            ref="http://www.treccani.it/enciclopedia/cosimo-de-medici_(Dizionario-Biografico)">Cosimo de'
+                            Medici</persName>
+                    </person>
+                    <person xml:id="Passerini">
+                        <persName type="pers_citata"
+                            sameAs="http://viaf.org/viaf/15853440" ref="http://www.treccani.it/enciclopedia/silvio-passerini_%28Dizionario-Biografico%29/">Passerini, Silvio
+                        </persName>
+                    </person>
+                    <person xml:id="ClementeVII">
+                        <persName type="pers_citata"
+                            sameAs="http://viaf.org/viaf/90633828" ref="http://www.treccani.it/enciclopedia/papa-clemente-vii_%28Dizionario-Biografico%29/">Clemente
+                            VII</persName>
+                    </person>
+                    <person xml:id="Ippolito">
+                        <persName type="pers_citata"
+                            sameAs="http://viaf.org/viaf/58947708" ref="http://www.treccani.it/enciclopedia/ippolito-de-medici_(Dizionario-Biografico)">De' Medici,
+                            Ippolito</persName>
+                    </person>
+                    <person xml:id="Alessandro_de_Medici">
+                        <persName type="pers_citata"
+                            sameAs="http://viaf.org/viaf/19258729" ref="http://www.treccani.it/enciclopedia/alessandro-de-medici-primo-duca-di-firenze_%28Dizionario-Biografico%29/">De' Medici,
+                            Alessandro</persName>
+                    </person>
+                    <person xml:id="Lorenzo_De_Medici">
+                        <persName type="pers_citata"
+                            sameAs="http://viaf.org/viaf/69724503" ref="http://www.treccani.it/enciclopedia/lorenzo-de-medici-duca-di-urbino_(Dizionario-Biografico)/">De' Medici,
+                            Lorenzo</persName>
+                    </person>
+                    <person xml:id="Capponi">
+                        <persName type="pers_citata"
+                            sameAs="http://viaf.org/viaf/90356940" ref="http://www.treccani.it/enciclopedia/niccolo-capponi_(Dizionario-Biografico)"> Capponi, Niccolò
+                        </persName>
+                    </person>
+                    <person xml:id="F_Carducci">
+                        <persName type="pers_citata"
+                            sameAs="http://viaf.org/viaf/90272314" ref="http://www.treccani.it/enciclopedia/francesco-carducci_res-011e1df0-87ea-11dc-8e9d-0016357eee51_(Dizionario-Biografico)">Carducci,
+                            Francesco</persName>
+                    </person>
+                    <person xml:id="Girolami">
+                        <persName type="pers_citata" ref="http://www.treccani.it/enciclopedia/raffaello-girolami_%28Dizionario-Biografico%29/">Girolami, Raffaello</persName>
+                    </person>
+                    <person xml:id="Carlo_V">
+                        <persName type="pers_citata"
+                            sameAs="http://viaf.org/viaf/88598818">Carlo V</persName>
+                    </person>
+                    <person xml:id="Carlo_Magno">
+                        <persName type="pers_citata"
+                            sameAs="http://viaf.org/viaf/89643029">Carlo
+                            Magno</persName>
+                    </person>
+                    <person xml:id="De_Rossi">
+                        <persName type="pers_citata"
+                            sameAs="http://viaf.org/viaf/106968998" ref="http://www.treccani.it/enciclopedia/giovanni-girolamo-rossi_%28Dizionario-Biografico%29/">De Rossi, Giovan
+                            Girolamo</persName>
+                    </person>
+                    <person xml:id="Torello">
+                        <persName type="pers_citata"
+                            sameAs="http://viaf.org/viaf/2458669" ref="www.treccani.it/enciclopedia/lelio-torelli">Torello,
+                            Lelio</persName>
+                    </person>
+                    <person xml:id="Plutarco">
+                        <persName type="autore_citato"
+                            sameAs="http://viaf.org/viaf/268955446">Plutarco</persName>
+                    </person>
+                    <person xml:id="Titolivio">
+                        <persName type="autore_citato"
+                            sameAs=" http://viaf.org/viaf/99942145">Tito Livio</persName>
+                    </person>
+                    <person xml:id="Buonanni">
+                        <persName type="pers_citata">Buonanni, Antonmaria</persName>
+                    </person>
+                    <person xml:id="Polibio">
+                        <persName type="autore_citato"
+                            sameAs="http://viaf.org/viaf/267920293">Polibio</persName>
+                    </person>
+                    <person xml:id="Tacito">
+                        <persName type="autore_citato"
+                            sameAs="http://viaf.org/viaf/100226923">Tacito, Publio
+                            Cornelio </persName>
+                    </person>
+                    <person xml:id="Leone_X">
+                        <persName type="pers_citata"
+                            sameAs="http://viaf.org/viaf/316407580" ref="http://www.treccani.it/enciclopedia/papa-leone-x_%28Dizionario-Biografico%29/">Leone X,
+                            papa</persName>
+                    </person>
+                </listPerson>
+                <listPlace>
+                    <place xml:id="Firenze">
+                        <settlement type="città">Firenze</settlement>
+                    </place>
+                    <place xml:id="Cortona">
+                        <settlement type="città">Cortona</settlement>
+                    </place>
+                    <place xml:id="Lucca">
+                        <settlement type="città">Lucca</settlement>
+                    </place>
+                    <place xml:id="Francia">
+                        <settlement type="paese">Francia</settlement>
+                    </place>
+                    <place xml:id="Roma">
+                        <settlement type="città">Roma</settlement>
+                    </place>
+                    <place xml:id="Padova">
+                        <settlement type="città">Padova</settlement>
+                    </place>
+                    <place xml:id="Pavia">
+                        <settlement type="città">Pavia</settlement>
+                    </place>
+                </listPlace>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text n="RC4" xml:id="RC4" hand="#A1">
+        <front> 
+            <div>
+                <p><hi> Legenda dei colori </hi></p>
+                <p>Mano di Bonsi: testo base in nero</p>
+                <p>Mano di Varchi: <del hand="#A2">cassature</del> ed <add hand="#A2">aggiunte</add></p>
+                <p>Mano di Baldini: <del hand="#A3">cassature</del> ed <add hand="#A3">aggiunte</add></p>
+                <p>Mano non identificata: <del hand="#A4">cassature</del> ed <add hand="#A4">aggiunte</add></p>
+                <p> Le abbreviazioni nella diplomatica sono sciolte e segnalate in corsivo e grassetto </p>
+
+            </div>
+        </front>       
+        <body>
+            <pb n="8r" xml:id="fol_8r"/><lb n="[8r]"/>
+            <div type="libro" xml:id="Proemio">
+                <head> &#9753; DELLA STORIA FIORENTINA <lb/>DI BENEDETTO VARCHI COMINCIATA DALL’<lb/>ANNO
+                    MILLE CINQUECENTO VENTISETTE,<lb/> A 
+                       L’ILL<emph rend="italic">USTRISSI</emph>MO ET ECC<emph rend="italic">ELLENTISSI</emph>MO 
+                        <persName ref="#Cosimo">SIGNOR COSIMO <del hand="#A2">DE’<lb/></del>
+                        MEDICI</persName>, DUCA SECONDO DI <lb/> FIRENZE <lb/><lb/>PROEMIO &#9753;</head>
+                <p><choice><sic>L'INTENDIMENTO</sic><corr>L'intendimento</corr></choice> nostro è di dovere con quella diligenza, e verità,<lb/> che
+                    potremo, e saperremo maggiore tutte quelle cose ordinatamente, e<lb/>
+                    particolarmente raccontare, le quali dal popolo fiorentino degne<lb/> di memoria
+                    ò in pace, ò in guerra, ò dentro, ò fuori della città,<lb/> ò publicamente, ò
+                    privatamente fatte furono, da che la <persName ref="#Famiglia_Medici"
+                        >famiglia<lb/> de’ Medici</persName>, e i loro seguaci la terza volta lo
+                    stato di <placeName ref="#Firenze">Firenze</placeName><lb/> perdettero, più per
+                    la poca prudenza, e molta così viltà come <lb/>avarizia di <persName
+                        ref="#Passerini">Mons<emph rend="italic">ignor</emph> m<emph rend="italic">esser</emph>
+                            Silvio Passerini Car<emph rend="italic">dina</emph>le
+                       di <placeName ref="#Cortona">Cortona</placeName></persName>,
+                    il<lb/> quale à nome di <persName ref="#ClementeVII">papa Clemente
+                        .VII.º</persName> per lo <persName ref="#Ippolito">Mag<emph rend="italic">nifi</emph>co
+                        Ippolito</persName><lb/> in quel tempo la governava, che per
+                    alcuna altra piu possente <lb/>cagione; la qual cosa seguì agli <date
+                        when="1527-04-26">XXVI giorni del mese d’<lb/>Aprile </date>, quando il popolo inaspettatamente levatosi, furiosame<emph rend="italic">n</emph>te
+                    <lb/> corse all’armi, ò più tosto agli <date when="1527-05-17">XVII di
+                        maggio</date>, allhora che<lb/>
+                    <persName ref="#Famiglia_Medici">i Medici</persName>, di <placeName
+                        ref="#Firenze">Firenze</placeName> partendosi, se ne fuggirono a <placeName
+                        ref="#Lucca">Lucca</placeName> l’an<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                        </choice><lb/>no della concezzione di N<emph rend="italic">ostro</emph> S<emph rend="italic">ignore</emph> Giesù Cristo (che da tal gior<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>no principia<del hand="#A1"
+                        >va</del>no l’anno 
+                    
+                    <span n="miaone"><choice><orig>
+                        ^ </orig><reg resp="#D.B."></reg></choice></span> <add hand="#A2" place="bottom" n="miaone"> <span n="miaone"><choice><orig>
+                            ^ </orig><reg resp="#D.B."></reg></choice></span> benché non senza errore
+                            manifesto, <del hand="#A2">i Fiorentini <emph rend="italic">ecc.</emph></del></add>  i Fiorentini <date
+                        when="1527">millecinquecento venti<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>sette</date>, infino à che ella, ed
+                    eglino con i danari della chiesa, e col<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><pb n="8v" xml:id="fol_8v"/><lb n="[8v]"/>le forze
+                    dell’imperio nell’anno <date when="1530">millecinquecento trenta</date> agli
+                        <date when="1530-08-20">.XX. <lb/> d’agosto</date>, fatto parlamento, lo
+                    racquistarono. <del hand="#A3"> Benché, l’animo no<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>stro è (se la vita ne
+                        basterà) di scrivere per maggiore notizia della <lb/>mutazione dello <placeName
+                            ref="#Firenze">stato di Firenze</placeName> infino al <del hand="#A2"
+                            >Primo</del>
+                        <add hand="#A2" place="above">27</add>
+                        <del hand="#A2">
+                            <add hand="#A2" place="below">primo</add>
+                        </del><del hand="#A2">giorno</del> 
+                        <del hand="#A2"> di Maggio</del>
+                        <del hand="#A2" n="miaone"><add hand="#A2" place="above">ventisettesimo
+                            d’Aprile</add></del><del hand="#A3"><add hand="#A2" place="margin" n="miaone"><date
+                                when="1532-05-01">primo <lb/>giorno <lb/>di Maggio</date></add></del>
+                        <lb/><date when="1532-05-01"> dell’anno mille cinquecento trentadue</date>,
+                        nel qual tempo <persName ref="#Alessandro_de_Medici">Alessandro <lb/>de’
+                            Medici</persName> figliuolo non legittimo di <persName
+                            ref="#Lorenzo_De_Medici">Lorenzo già Duca d’Urbino</persName>, <lb/>
+                        levata la signoria, e ’l Gonfaloniere, fù a vita con tutti i suoi <lb/>
+                        discendenti, e successori legittimi Doge creato della <placeName
+                            ref="#Firenze">Republica Fio<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>rentina</placeName>: spazio breve sì,
+                        non comprendendo egli se non cinque <lb/>anni, e <del hand="#A2"
+                            >cinque</del>
+                        <del hand="#A2"><add hand="#A2" place="above">un </add></del>
+                        <add hand="#A2" place="above">cinque</add> giorn<del
+                            hand="#A2">i<add hand="#A2">o</add></del><add hand="#A2">i</add>, ma tale
+                        però e così fatto, che in ello, e <lb/>massimamente ne’ tre primi anni sotto
+                        il governo di tre gonfalo<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>nieri di diversa natura, condizione, e
+                            volontà,<persName ref="#Capponi"> Niccolò Capponi</persName>,<lb/>
+                        <persName ref="#F_Carducci">Francesco Carducci</persName>, e <persName
+                            ref="#Girolami">Raffaello Girolami</persName>, nacquero insieme con<lb/>
+                        uno assedio, del quale non sò se mai fù il più memorabile, tutte <lb/> quasi
+                        quelle varietà et accidenti, che in un popolo non meno ambizioso,<lb/> e
+                        sottile che <add hand="#A2" place="above">diligente e</add> avaro, ne meno
+                        ricco, <del hand="#A1">che</del><add hand="#A1" place="above"><emph rend="italic">et</emph></add>
+                        industrioso, <del hand="#A2">e</del>
+                        <add hand="#A1" place="above">che</add> nobile, di sotto q<emph rend="italic">ue</emph>l<lb/> giogo contra tempo, e per la non pensata uscito, il quale
+                        .XV. anni<lb/> continovi premuto l’havea, non pure sogliono, ma possono
+                        occorrere.</del><lb/> Chiara cosa è che la <placeName ref="#Firenze">città
+                        di Firenze</placeName>, la quale, ò sua colpa ò sua <lb/> fortuna, fù alle
+                    divisioni, e alle discordie cittadine sempre maraviglio<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>samente sottoposta,
+                    mai non si trovò, ne con piu certo pericolo di<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>visa, ne con maggior danno
+                    discorde, che in quel tempo. Onde <lb/> avvenne, che ella dopo l’havere la
+                    guerra contra l’esercito del Pa<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>pa e dell’Imperadore con incredibile à
+                    ardire, e costanza, secondo <lb/>che à noi pare, ò temerità, <add hand="#A1"><emph rend="italic">et</emph></add> ostinazione,
+                    secondo il giudizio <del hand="#A1">d'</del>
+                    <pb n="9r" xml:id="fol_9r"/><lb n="[9r]"/> d’Alcuni, poco meno d’un'anno intero, se non
+                    felicemente, franca<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>mente certo, e valorosamente sostenuto; essendo ella
+                    prima da tutti<lb/> gl’amici, e confederati, poi da i suoi Capitani medesimi e
+                    da una parte <lb/>de’ proprij cittadini tradita; et ultimamente da <persName
+                        ref="#ClementeVII">Clemente .VII.</persName> e <lb/>
+                    <persName ref="#Carlo_V">Carlo .V.</persName> ingannata, divenne dopo mille e
+                    secento anni, che ella <lb/> fu da i mercatanti Fiesolani, e da i soldati Romani
+                    edificata, <lb/> e settecento ventinove poscia che <persName ref="#Carlo_Magno">
+                        Carlo per sopranome Magno</persName>, Re <lb/> di <placeName ref="#Francia"
+                        >Francia</placeName>, e primo Imperadore dopo la rovina dello imperio
+                    Oc<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>cidentale, tornandosene da <placeName ref="#Roma">Roma</placeName> in
+                        <placeName ref="#Francia">Francia</placeName>, ò la riedificò di <lb/>
+                    nuovo, ò alcerto la restaurò; divenne, dico, piu tosto di stato <lb/> corrotto,
+                    e licenzioso tirannide, che di sana, e moderata Republica, <lb/> prencipato. Ne
+                    à questa così grande, e così grave impresa, e <choice>
+                        <sic>no</sic>
+                        <corr>non</corr>
+                    </choice><lb/> meno di fatiche, e di pericoli piena, che d’honore, e di gloria,
+                    <lb/> mi sono io nella mia già matura, e canuta età <choice>
+                        <sic>spontanamete</sic>
+                        <corr resp="#D.B.">spontanamente</corr>
+                    </choice>
+                    <lb/> messo, e di mia propria elezzione, anzi non pensando io à cosa <lb/> nessuna
+                    meno, che à dovere scrivere Storie, mi fu <del hand="#A3">prima da 
+                        <lb/><persName ref="#De_Rossi">Mons<emph rend="italic">ignor</emph> de’ Rossi</persName> vescovo di <placeName ref="#Pavia"> Pavvia
+                        </placeName>per nome di <persName ref="#Cosimo">Cosimo de’<lb/>
+                            Medici</persName> Duca di <placeName ref="#Firenze">Firenze</placeName>,
+                        e poi</del> dalla propria bocca di <del hand="#A3" n="miaone">lui</del><add hand="#A3" place="margin" n="miaone"><persName ref="#Cosimo">Cosimo de’
+                            Me<lb/>dici</persName> duca di <lb/><placeName ref="#Firenze"
+                        >Firenze</placeName></add><lb/>
+                    molto humanamente, ch’io ciò fare dovessi imposto
+                    e coman<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>dato, <del hand="#A3">faccendomi egli per publico, et honorevole
+                        partito de i <lb/>
+                        Mag<emph rend="italic">nifi</emph>ci S<emph rend="italic">igno</emph>ri, Luogotenente, e Consiglieri suoi, honesta provvisione <lb/> per
+                        le mie bisogne <add hand="#A2" place="above">prima</add> di .XV. <add
+                            hand="#A2" place="above">e poi di venticinque</add> fiorini d’oro senza
+                        alcuna ritenzio<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>ne, ò stanziamento, il che radissime volte concedere si
+                        suole, per <lb/> ciascun mese diliberare, e pagare; la qual cosa, tosto che
+                        si spar<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>se, e divolgò, diede à molte persone, e diverse, assai piu, che
+                        nel</del><pb n="9v" xml:id="fol_9v"/><del hand="#A3">vero non pareva che <add hand="#A1"
+                            place="above">dare</add> dovesse, parte cagione, e parte occasione di
+                        mol<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>to, e diversamente sopra ciò ragionare; et avvengadio che la
+                        maggior par<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>te (secondo che mi fu generalmente da più amici miei
+                        riferito, et in ispe<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                        </choice><lb/>zie dal Mag<emph rend="italic">nifi</emph>co m<emph rend="italic">esser</emph> 
+                        <persName ref="#Torello">Lelio Torello</persName>) facessero giudizio, e
+                        dicessero aperta<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>mente prima, ch’io non vorrei; e poscia, quando pure
+                        io volessi, non sa<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>prei, non che fornire, cominciare così alta impresa,
+                        e tanto dagli studij <lb/> miei passati lontana: Io nondimeno, considerate
+                        le ragioni loro, e pa<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>rendomi parte pr<del hand="#A1">o</del><add
+                            hand="#A1" place="above">e</add>suntuose, volendo dell’altrui volontà 
+                                temerariam<emph rend="italic">n</emph>ete
+                            <lb/> affermare; e parte fondat<del hand="#A2">i</del><add
+                            hand="#A2">e</add> in sul falso, poco caso ne feci, anzi, per vero <lb/>
+                        dire, nïuna cura ne tenni; percioche io, se bene e per l’età, non
+                        ha<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>vendo in quel tempo piu anni che XXV. e per lo non essere habile
+                        <lb/> agl’uffizij, essendo io bene cittadino di <placeName ref="#Firenze"
+                            >Firenze</placeName>, secondo l’abuso delle <lb/> republiche moderne, ma
+                        non già il benifizio godendo della città, non <lb/>mi ritrovai in quel
+                        teatro come strione, non dimeno come spettatore<lb/>
+                        <del hand="#A1">c</del><add hand="#A1" place="above">v</add>’intervenni, e
+                        suole molte volte accadere, che più veggono, e meglio <lb/> giudicano
+                        d’alcuna ò commedia, ò tragedia coloro, i quali à vederla <lb/>
+                        rappresentare intervengono, che quelli stessi non fanno, i quali à
+                        rap<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>presentarla si truovano. Io non negarò, che il ritrovarsi ne i
+                        con<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>sigli publici; intervenire nelle consulte private; esser presente
+                        alle pra<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>tiche segrete, e il potere finalmente, ò come capo, ò come
+                        parte di quel<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>le cose trattare, e deliberare, le quali poi in
+                        iscrittura distendere si deb<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>bano, e mandare à i Posteri, non sia in
+                        qualche parte utilissimo, ma<lb/> dirò bene, che egli in parte nessuna
+                        necessario non è, se gia non cre<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>dessimo che <persName ref="#Plutarco"
+                            >Plutarco</persName> autore gravissimo, e tanti altri Storici cosi
+                        Greci,<lb/> come Latini à quelle cose personalmente intervenissero, le quali
+                        da </del><lb/><pb n="10r" xml:id="fol_10r"/><del hand="#A3">loro dopo tanti anni così
+                        distintamente e così veramente scritte fu<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/> rono. E chi non sa, che
+                            <persName ref="#Titolivio">Titolivio</persName>, il quale non à
+                            <placeName ref="#Roma">Roma</placeName>, ma <lb/> à <placeName
+                            ref="#Padova">Padova</placeName> negl’ultimi tempi nacque della
+                        Republica Roma<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>na, tutto che mai <add hand="#A1" place="above"
+                            >(ch’</add>io sappia) nïuna parte di lei governasse, scrisse <lb/>
+                        niente dimeno con infinita lode, e gloria di se; et ineffabile
+                        gio<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>vamento e piacere d’Altrui, non dico cinque anni à punto ne<lb/>
+                        una guerra sòla, ma tutte quelle che dal Popolo Romano, da <lb/> che egli
+                        nacque infino à che egli (si puo dire) morì, erano pri<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>ma sotto i Re, e
+                        poi sotto i consoli, e parte ancora sotto gl’Im<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>peradori per ispazio di
+                        piu che .DCC. anni in conquistare il<lb/> Mondo, e quasi tutto alla sua
+                        monarchia sottometterlo, non meno<lb/> virtuosamente, che avventurosamente
+                        state fatte? Anzi dirò più<lb/> oltre, che il pericolo, che si corre in
+                        narrando quelle cose, nelle qua<lb/>li altr<del hand="#A2">u</del><add
+                            hand="#A2">i</add><del hand="#A2">i</del> è ò come capo, ò come parte
+                            intervenuto, è per avve<emph rend="italic">n<lb/></emph><choice>
+                                <orig>-</orig>
+                                <reg resp="#D.B."></reg>
+                            </choice>tura
+                         (non essendo tutti gl’huomini Cesari) maggiore della utilità,<lb/>
+                        che trarre se ne possa: conciosiacosa che egli sia, se non del tutto<lb/>
+                        impossibile, certo malagevole molto, che coloro, i quali di cose
+                        proprie<lb/> e à se pertinenti ragionano, ò non s’ingannino alcuna volta,
+                        anco<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>ra, che non volessero, e non se n’accorgano, à almeno senza
+                        affez<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>zione non ne favellino: Dove gl’Altri, poscia che ne biasimo
+                        alcu<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>no, ne loda venire loro debbe da quello, che racconta<del
+                            hand="#A1">va</del><add hand="#A1" place="above">no</add>,
+                        sincera<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>mente, e senza animosità tutto ciò, che eglino ò da se, ò per
+                        le al<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>trui bocche, ò scritture sanno, ò laudabile, ò biasimevole, che
+                        egli<lb/> si sia, mandano fuori. Di me e degli studij miei non intendo<lb/>
+                        io di dovere altro rispondere, se non che essendo io huomo e Filo<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice></del>
+                        <pb n="10v" xml:id="fol_10v"/><lb n="[10v]"/><del hand="#A3">sofo, ciò è amico e disideroso del sapere, non
+                        penso, che nïuna cosa, la <lb/> quale ad huomo, e à Filosofo s’appartenga,
+                        sia ne da me ne da’ miei<lb/> studij lontana. Potrei bene testi
+                            <del hand="#A2">ficare e</del>
+                            <add hand="#A2" place="above">moniare </add><del hand="#A1"><emph rend="italic">et</emph></del> <add hand="#A1">che</add>
+                        </del><span n="miaone"><choice>
+                        <orig>^</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice></span><add hand="#A3" place="margin" n="miaone">
+                            <del hand="#A3">Et
+                            </del>
+                            <add hand="#A3" place="above">Laonde</add> per supplire
+                        </add> per supplire con la in<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>dustria à dove l’ingegno mancava,
+                    sappiendo io, che della verità,<lb/> se non sola, piu certo di lei, che di tutte
+                    l’altre cose insieme si deve<lb/> nella storia conto tenere, spes<del hand="#A2"
+                        >o</del><add hand="#A2">j</add> si lungo tempo, e cotal diligenza <lb/> usai, e
+                    tante fatiche durai per rinvenirla ancora nelle cose meno<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>missime, e
+                    in un certo modo soverchie, che egli per avventura dicen<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>dolo io, creduto
+                    da molti non mi sarebbe: conciosia che, oltra<del hand="#A3" n="miaone"> le <lb/>altre cose, non
+                        ritrovandosi nella segreteria alcuni </del><add hand="#A3" place="margin" n="miaone">al
+                        vedere <lb/> tutti <add hand="#A4">i</add></add>
+                     libri publici, ne i <lb/>quali erano le cose dello
+                    stato, e della guerra piu segrete, e piu im<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>portanti notate, <del
+                        hand="#A3">percioché furono, secondo che coloro dicevano, <lb/>a cui la cura
+                        d’essi toccava, a <persName ref="#ClementeVII">papa Clemente</persName>, il
+                        quale <lb/>instantissimamente gli chiedea, dopo l’assedio in diligenza mandati
+                        subito, <lb/> fui costretto</del> non pure <del hand="#A3">a</del> leggere, ma
+                    notare,<span n="miaone"><choice>
+                        <orig>^</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice></span><add hand="#A3" place="margin" n="miaone">volsi <add hand="#A4">ancora</add> <lb/> molte scrit<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>ture et publi<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>che et
+                        priva<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                        </choice><lb/>te dalle q<emph rend="italic">u</emph>ali<lb/> io <del hand="#A3">ho</del> credettj <lb/>potere in
+                        ma<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>niera alcuna <lb/> ritrovare la<lb/> verità delle<lb/> cose seguite
+                        in<lb/> quei tempi<lb/>
+                        <del hand="#A3">nei q<emph rend="italic">u</emph>a</del><add hand="#A3">c</add><del hand="#A3">li</del><add hand="#A3">h</add><add hand="#A3">e</add> io <lb/> doveva scrivere</add>
+                    <del hand="#A3">e intavolare per l’ordi<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>ne dell’alfabeto, e poco meno, che
+                        trascrivere non solo molti libri de’<lb/> signori dieci di libertà, e pace,
+                        e molt<del hand="#A2">o</del><add hand="#A2">i</add> delle riformagioni, e
+                        d’altri <lb/> magistrati, et infinite lettere, e registri d’Ambasciadori, di
+                        Commes<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>sarij, di Vicarij, di Podestà, e d’altri uffiziali, che di tutto
+                        il con<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>tado, distretto, e dominio Fiorentino nel palazzo gia de’
+                        Signori, et<lb/> hoggi del Duca in numero quasi innumerabile, parte in filze
+                        et<lb/> parte in libri ridotte, sotto la custodia di ser <persName
+                            ref="#Buonanni">Antonmaria Buonanni</persName><lb/> Cancelliere de’
+                        Signori Otto di Pratica, meno diligentemente, che <lb/> fare non si
+                        doverrebbe, si guardano; Ma volgere eziandio e rivol<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>gere non pochi
+                        parte Zibaldoni (che così gli chiamano) e parte scar</del><pb n="11r"
+                            xml:id="fol_11r"/><del hand="#A3"> tabelli, e scartafacci di diverse persone, le quali
+                        in varij tempi le <lb/> cose che nella città si facevano, ò si dicevano, di
+                        giorno in giorno<lb/> piu tosto con molta diligenza, e curiosità (del che
+                        non poco si de<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>ve loro obligo havere) che con alcuno ordine, ò studio
+                        andavano <lb/>in sù detti stracciafogli notando, e sopra esse alcune fiate,
+                        ma <lb/>bene spesso piu secondo le passioni, e cotale alla grossa, che
+                        secon<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>do la verità, ò giudiziosamente discorrendo: senza che
+                        m’avven<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>ne infinite volte il dovere hora favellare, et hora scrivere
+                        quando <lb/>à questo cittadino, e quando à quel soldato per havere
+                        informa<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>zione d’alcuna cosa, à per la certezza intendere d’alcuna
+                        altra,<lb/> la quale essere stata diversamente ò detta, ò fatta, ò nelle
+                        bocche <lb/>dei vivi, ò nelle scritture de i morti si ritrovava: per non
+                        dire <lb/>nulla delli Scrittori delle cronache Fiorentine tanto
+                        antichi,<lb/> i quali non sono ne pochi, ne piccioli, quanto moderni, letti
+                        da <lb/>me, e riletti con buona parte degli Storici così Greci, come
+                        La<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>tini, e Toscani, e spezialmente <persName ref="#Polibio"
+                            >Polibio</persName>, il quale de i Greci <lb/>havemo preso à dovere
+                        imitare, si come <persName ref="#Tacito">Cornelio Tacito</persName> fra i
+                        <lb/>Latini. Ne voglio lasciare di dire, che <del hand="#A1">il</del><add hand="#A1">in</add>
+                        leggendo io assai accu<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>ratamente, e considerando i soprascritti Autori,
+                        per dovere quin<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>di lo stame, e la trama procacciare, onde la
+                            te<del hand="#A2">r</del><add hand="#A2">l</add>a nostra prima <lb/>ordire, e poi tessere si
+                        potesse, trovai tanto non pure diverso, <lb/>ma contrario quello, che
+                        dagl’huomini universalmente si fa, à <lb/>quello che non solamente da i
+                        Cristiani Teolog<del hand="#A2">a</del><add hand="#A2">i</add>, ma eziandio da<lb/> i Filosofi
+                        gentili si scrive, che fare si doverrebbe, che io venni in dub<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>bio meco
+                                stesso, e fui molte fïate molto vicino à far credere à </del><pb n="11v"
+                            xml:id="fol_11v"/><del hand="#A3">me medesimo, che le cose humane non da ragione, e
+                        giudizio, ma dal<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/> la fortuna, e dal caso si governassono, ò almeno,
+                        veggendosi si chia<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/> ramente, e cosi spesso da chi del tutto orbo non è,
+                        che le cose giu<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/> ste, e bene da i buoni, e prudenti huomini
+                        consigliate, e ottimamen<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>te inviate ò sono poi nell’esseguirle il piu
+                        delle volte impedite, ò <lb/> riescono à non lieto fine; e per lo contrario
+                        le ingiuste e male,<lb/> dagl’huomini rei, e temerarij consultate, e
+                        pessimamente incamina<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>te, senza impedimento alcuno, ricevere
+                        felicissimamente succedono,<lb/> che nïuna si truovi quaggiù, ne prudenza,
+                        ne innocenza per gran<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>de che ella sia, la quale ò si debba credere
+                        bastevole à pr<del hand="#A2">ov</del><add hand="#A2" place="above">e</add>vedere,<lb/> e regolare
+                        gl’avvenimenti, e i successi delle cose, ò si possa tenere <lb/>sicura di
+                        non dovere essere, quando che sia non solo vilipesa, e scher<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>nita, ma
+                        offesa, e oltraggiata, sì universalmente da tutti, e sì da <lb/>coloro
+                        particolarmente, i quali più pregiarla, et honorarla, e più <lb/>difenderla,
+                        e premiarla doverrebbono. E per certo se le cose (come <lb/>i Filosofi
+                        dicono, e la ragione pare che richieggia) deono per lo <lb/>più, e nella
+                        maggior parte del tempo essere rettamente disposte, <lb/>e secondo la
+                        propria natura loro, mostrando le storie, che il mondo <lb/>fù quello
+                        medesimo sempre; e sempre à rovescio di quello, che i pre<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>cetti loro ne
+                        insegnano, si resse, e governò, potrebbe <choice>
+                            <sic>ragionevolme<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>te</sic>
+                            <corr resp="#D.B.">ragionevolmente</corr>
+                        </choice> alcuno dubitare, che la Natura delle cose, et in ispezie q<emph rend="italic">ue</emph>lla<lb/>
+                          degl’huomini non sia quella, che essi affermano, che ella è, ma<lb/>
+                        quella, che la pruova stessa di tante, e tante centinaia d’anni <lb/>ha dimostrato,
+                        e dimostra continovamente, che ella sia; ò almeno <lb/>conoscendo per isperienza,
+                        alla quale non s’oppongono se non </del><pb n="12r" xml:id="fol_12r"/><del hand="#A3">
+                        gli stolti,
+                        che quasi sempre non da quello, che si deve, guidati, <lb/>
+                        ma da quello che si
+                        vuole, sono gl’huomini traportati, credere, <lb/>
+                        che più in loro di gran lunga le
+                        sentimenta possano, che non può <lb/>
+                        la ragione. Onde chi all’opposito di quello,
+                        che essi dicono, che fa<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>re si dee, tutti gl’huomini presupponesse cattivi, e
+                        così di ciascuno,<lb/>
+                        infino che ’l contrario mostrato gli fusse, giudicasse,
+                        assai meno <lb/>senza alcun fallo, errarebbe, e sarebbe ingannato di chi <choice><sic>altramete</sic><corr resp="#D.B.">altramente</corr></choice><lb/>
+                        
+                        secondo i loro ammaestramenti facesse: e divero, se nell’Univer<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>
+                        so deono
+                        essere tutte le cose, e tutti i contrarij (come i medesimi <lb/>
+                        Filosofi
+                        affermano) ritrovarsi, non pure verisimile, ma necessaria <lb/>cosa è che (si
+                        come nel cielo insieme colla immortalità soprab<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>bondano tutti i beni) così
+                        insieme colla mortalità trabocchino in <lb/>terra tutti i mali; e per
+                        conchiudere in una sentenza sola tutto <lb/>quello, il quale non dico <add hand="#A1" place="above">che</add> sia, ma
+                        che credere si potrebbe, che vero <lb/>fusse, i nomi soli, e forse le cagioni delle
+                        cose buone, e lodevoli <lb/>si ritruovano nel mondo, ma i significati loro, e gl'
+                        effetti non <lb/>già <choice>
+                        <orig>^</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice> 
+                        <add hand="#A2" place="bottom"><choice>
+                        <orig>^</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice> di maniera che <lb/>fanno parere giusta, e vera essere quella
+                                falsissima, e iniquissima <choice><sic>differeza</sic><corr resp="#D.B.">differenza</corr></choice><lb/> la quale pongono Alcuni tra la ragione
+                                civile, e quella chiamata da loro la <lb/>ragione de gli stati; dicendo <del hand="#A2">che</del> la ragione
+                                civile dovere nelle controversie <lb/>de Privati risguardar sempre la giustizia,
+                                e l’honestà, ma la ragione degli <lb/>stati considerare tra gli affari de’
+                            Principi quello solamente, e non altro, che <lb/>sia o utile, o piacere loro <emph rend="italic">etc.</emph> Le quali cose <emph rend="italic">etc.</emph> </add>
+                        Le
+                        quali cose ad altro fine da me in questo
+                        luogo dette non <lb/>sono, se non prima,
+                        perche i Lettori così delle nostre (se mai ne <lb/>saranno Alcuni) come
+                        dell’altrui storie, meno prendano, ò di <lb/>maraviglia, ò di sdegno, quando
+                        udiranno che, non pure i pri<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>vati huomini, e secolari, ma i Re stessi,
+                        gl’Imperadori, i Pon<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>tefici, e le republiche intere intere siano non una volta
+                        sola, ma <lb/>quante i suoi commodi habbiano veduto, della lor fede contra <lb/>le
+                        promessioni proprie con mille giuri, e sagramenti confermate, <lb/>mancato, sempre
+                        all’honesto l’utile, ò il giocondo preponendo. 
+                            </del>
+                    <pb n="12v" xml:id="fol_12v"/><lb n="[12v]"/>
+                    <add hand="#A3" place="margin" n="miaone">Et </add><span n="miaone">Secondariamente</span>, perche, essendo uno de i principali
+                    uffizij delli <lb/>storiografi, et una delle maggiori utilità, che n’arrechi la storia,<lb/>
+                    hora il riprendere, e biasimare i vizij per isbigottire, e spaven<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>
+                    tare i rei
+                    huomini dal male, e bruttamente operare; hora il lo<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>
+                    dare, e favorire le virtù per
+                    inanimire i Buoni, et infiammargli <lb/>
+                    all’opere egregie, e degne d’honore; conosca
+                    ciascuno, che quanto <lb/>è piu corrotto il secolo, e minore si truova il numero di
+                    coloro, i qua<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>li bene, e lealmente adoperino, tanto deono quelli, i quali il
+                    con<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>trario fanno, maggiormente esser lodati, e portati al cielo; la <lb/>
+                    qual cosa è se
+                    non il vero premio, certo il maggiore, che agl’huomi<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>ni forti, e virtuosi dare in
+                    questo mondo si possa; e finalmente, <lb/>perche lodandosi alcuna volta da noi, come
+                    per cagione d’essem<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>pio, la benigna, e liberalissima natura, ò il felicissimo, e
+                    disidere<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>
+                    vole Pontificato di <persName ref="#Leone_X">Papa Leone
+                        Decimo</persName>, non sia chi voglia, <lb/>importunamente allegando gli stessi
+                    canoni fatti da i Papi me<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>
+                    desimi, mostrare lui in assaissime cose, e forse in
+                    tutte havere man<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>cato: percioche concedendogli io, che egli non solo havesse in<lb/>
+                    tutte mancato, ma eziandio fatto in moltissime tutto il contra<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>
+                    rio di quello, che
+                    fare si devea, risponderei non dimeno, che se <lb/>colla bilancia delle leggi, ò pure
+                    col paragone de’ Filosofi si pesas<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>sero, ò e cimentasseno le cose del Mondo,
+                    pochissime se ne trover<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>
+                    ebbeno, ò più tosto non nïuna, la quale non dico scarsa, ò
+                    leggie<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>ra, ma falsa, e contrafatta non fusse. E chiunche non si contenta <lb/>di queste
+                    cose presenti tali, quali elle sono, ne sà o può coll’au<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>torità, ò colla forza
+                    correggerle, et ammendarle, deve, poster<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><pb n="13r" xml:id="fol_13r"/><lb n="[13r]"/>gandole
+                    tutte, come false, e transitorie, à quelle vere e sempiterne <lb/>rivolgersi. Ma tempo
+                    è omai, che posto fine à’ proemij, dia<choice>
+                        <orig>-</orig>
+                        <reg resp="#D.B."></reg>
+                    </choice><lb/>mo col nome, e favore di colui, il quale,
+                    essendo egli la stessa <lb/>verità, ama, e difende tutti coloro, che il vero dicono,
+                    felice <lb/> <span n="miaone_centrale">cominciamento alla Storia. &#9753; </span></p>
+                
+
+            </div>
+        </body>
+    </text>
+
+</TEI>
