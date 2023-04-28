@@ -104,6 +104,9 @@
                 <listPlace>
                     <place xml:id="Armenia">
                         <placeName>Grannt Ermenie</placeName>
+                        <location>
+                            <geo></geo>
+                        </location>
                     </place>
                     <place xml:id="India">
                         <placeName>Ynde</placeName>
